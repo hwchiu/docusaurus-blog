@@ -24,13 +24,6 @@ const sidebars = {
        dirName: 'techPost',
     }
   ],
-  about: [
-     {
-      type: 'doc',
-      label: '自我介紹',
-      id:    'about',
-    },
-  ]
 };
 
 module.exports = sidebars;
