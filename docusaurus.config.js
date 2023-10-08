@@ -37,7 +37,9 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {}
+        docs: {
+          sidebarPath: require.resolve('./sidebars.js'),
+        },
         blog: {
           showReadingTime: true,
           routeBasePath: '/', // Serve the blog at the site's root
@@ -67,9 +69,32 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+	    to: '/about',
+            position: 'left',
+            label: '我是誰',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'techPost',
+            position: 'left',
+            label: '長篇技術文',
+          },
+	  {to: '/', label: '短篇筆記', position: 'left'},
+          {
+	    to: '/course',
+            position: 'left',
+            label: '線上課程',
+          },
+          {
+	    to: '/public_sharing',
+            position: 'left',
+            label: '演講紀錄',
+          },
+
+
+          {
+            href: 'https://github.com/hwchiu/docusaurus-blog',
             label: 'GitHub',
             position: 'right',
           },
@@ -109,7 +134,7 @@ const config = {
             items: [
               {
                 label: 'Blog',
-                to: '/blog',
+                to: '/',
               },
               {
                 label: 'GitHub',

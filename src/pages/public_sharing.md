@@ -1,0 +1,40 @@
+---
+title: Markdown page example
+---
+
+| 日期 Date	| 演講題目 Topic | 地點 Place	| 備註 Notes | 簡報 Slide |
+| -------- | -------- | -------- | -------- | -------- |
+| 2018.02.10     | High Performance Networking     | 臺灣科技大學     | SDN x Cloud Native Meetup #2     | [link](https://goo.gl/VBvk49)     |
+| 2018.03.27     | 如何用GO撰寫CNI(Container Network Interface) | Linker Networks      | Golang Taipei Gathering #30    | [link](https://www.slideshare.net/hongweiqiu/writing-the-container-network-interfacecni-plugin-in-golang-92128553)     |
+| 2018.04.28    | 從入門到放棄，原來 CNI 這麼複雜 | 國立臺中科技大學 資訊樓8樓    | SDN x Cloud Native Meetup #4    | [link](https://goo.gl/3AAC91)     |
+| 2018.05.26   | Kubernetes 與 Docker Registry 的愛恨情仇 | CLBC大安本館    | SDN x Cloud Native Meetup #5    | [link](https://goo.gl/pjnzZJ)     |
+| 2018.08.11  | Kubernetes 網路分析，搞懂所有網路功能以及 CNI 開發 | 台灣科技大學國際大樓（IB） | COSCUP 2018 x openSUSE.Asia GNOME.Asia    | [link](https://www.slideshare.net/hongweiqiu/overview-of-kubernetes-network-functions)     |
+| 2018.08.11  | Linux iptables 的運作原理分析 | 台灣科技大學國際大樓（IB）     | COSCUP 2018 x openSUSE.Asia GNOME.Asia   | [link](https://www.slideshare.net/hongweiqiu/understand-the-iptables-step-by-step-109650841)     |
+| 2018.09.08  |  Linux 101 | 台灣文創訓練中心      | SDN x Cloud Native Meetup #8  | [link](https://www.slideshare.net/hongweiqiu/iptables-101-bottomup)     |
+| 2018.10.17 | Control Your Network ASICs, What Benefits switchdev Can Bring Us | NCTU     | Open Source Networking Days Taiwan | [link](https://www.slideshare.net/hongweiqiu/control-your-network-asics-what-benefits-switchdev-can-bring-us)     |
+| 2018.11.17| Build Your Own CaaS (Container as a Service) | 國立臺灣大學博雅教學館      | GDG DevFest Taipei 2018   | [link](https://www.slideshare.net/hongweiqiu/build-your-own-caas-container-as-a-service)     |
+| 2018.11.22 | Introduction to Application-Based Routing | 天瓏資訊圖書      | SDN x Cloud Native Meetup #10  | [link](https://www.slideshare.net/hongweiqiu/applicationbased-routing)     |
+| 2019.03.09 | Kubernetes 1001 |  Monospace 共同工作空間 | 台中自由軟體愛好者社群 - TFC | [link](https://www.slideshare.net/hongweiqiu/kubernetes-1001)     |
+| 2019.04.15 | 深入淺出 Container & Kubernetes | digiBlock Taipei台北數位產業園區 | Taiwan R User Group / MLDM Monday | [link](https://www.slideshare.net/hongweiqiu/head-first-to-containerkubernetes)     |
+| 2019.04.20 | Introduction to CircleCI | 達文西會議空間 | DevOps Taiwan - CI / CD / DevOps Pipeline Tools 大亂鬥  | [link](https://www.slideshare.net/hongweiqiu/introduction-to-circleci)     |
+| 2019.05.27 | [Data Series] 從網路封包看待資料科學的應用 R Basic 讀書會分享 | digiBlock Taipei台北數位產業園區 | R-Ladies Taipei  | [link](https://www.slideshare.net/hongweiqiu/how-networking-works-with-data-science)     |
+| 2019.08.31 | Load-Balancing  101| 天瓏書局-電腦書專賣店 | SDN x Cloud Native Meetup #19 | [link](https://www.slideshare.net/hongweiqiu/load-balancing-101)     |
+| 2019.09.16 | 30天 kubernetes 設計探討| 第 11 屆 iT 邦幫忙鐵人賽 |  第 11 屆 iT 邦幫忙鐵人賽 | [link](https://ithelp.ithome.com.tw/users/20120317/ironman/2442?page=1)     |
+| 2020.01.06 | Open vSwitch 深入淺出 |  天瓏書局-電腦書專賣店| SDN x Cloud Native Meetup #24 | [link](https://www.slideshare.net/hongweiqiu/open-vswitch-introduction)     |
+| 2020.04.11 | IPTABES 初探篇，從 Docker 出發觀察封包流向| 線上會議 | SDN x Cloud Native Webinar 海外篇 #1  | [link](https://www.youtube.com/watch?v=y4e_B6PdX8A)     |
+| 2020.05.03 | IPTABES 與 Kubernetes 各種淵源並打造一個屬於自己的 Layer7 IPTABLES | 線上會議 | SDN x Cloud Native Webinar 海外篇 #2  | [link](https://youtu.be/10Hsr9k_0yE)     |
+| 2020.06.06 | OpenTracking 101| 線上會議 | SDN x Cloud Native Webinar 海外篇 #3  | [link](https://youtu.be/t8OCKZYcVLg)     |
+| 2020.07.11 | IP Virtual Server(IPVS)101| 線上會議 | SDN x Cloud Native Webinar 海外篇 #4  | [link](https://www.youtube.com/watch?v=6ZaUIRZ-SO8)     |
+| 2020.08.22 | GitOps 101| 線上會議 | SDN x Cloud Native Webinar 海外篇 #5  | [link](https://www.youtube.com/watch?v=1n2JsOIiHP8)     |
+| 2020.09.26 | CRI&OCI 介紹| 線上會議 | SDN x Cloud Native Webinar 海外篇 #6  | [link](https://youtu.be/5JhQOjSSnzQ)     |
+| 2020.12.18 | When Cloud Native Meets 5G/LTE Private Cloud Edge| NCTU | Open Source Networking Day 2020 Taiwan| 待補   |
+| 2020.12.19 | Jenkins & Infrastructure as Code | 線上會議 | SDN x Cloud Native Webinar 海外篇 #7 | [link](https://youtu.be/M-c_Pn18aZY)     |
+| 2021.01.09 | Jenkins & Infrastructure as Code | Monospace 共同工作空間 | 台中自由軟體愛好者社群 - TFC | [link](https://youtu.be/M-c_Pn18aZY)     |
+| 2021.06.17 | AWS VPC CNI 的實作來學習網路架構的設計 | 線上會議 | AWS User Group Taiwan Meetup 2021-06 線上小聚 | [link](https://www.slideshare.net/hongweiqiu/learning-how-aws-implement-aws-vpc-cni)     |
+| 2022.03.28 | The future of the Container, gVisor and Firecracker | 線上會議 | SDN x Cloud Native Meetup #46 | [link](https://www.youtube.com/watch?v=c31fg5gQwHI)     |
+| 2022.07.30 | 以 eBPF 構建一個更為堅韌的 Kubernetes 叢集 | 線上會議 |COSCUP 2022 & Kubernetes Community Days Taiwan | [link](https://coscup.org/2022/zh-TW/session/DEV3VC)     |
+| 2022.09.01 | Kubernetes 網路除錯之旅  | 實體會議 | LINE x KCD Taiwan Meetup #49 | [link](https://www.slideshare.net/hongweiqiu/debug-your-kubernetes-network)     |
+| 2022.10.28 | 淺談如何快速打造一個基於 5G 的開發測試環境 | 實體會議 | Cloud Native x 5G 開源技術工作坊 | [link](https://docs.google.com/forms/d/e/1FAIpQLSeZr5jOaDtpPVz1L_fcFvKaM7Bu5XV-GRIYFxt8Bs5YaZUVjA/viewform)     |
+| 2023.07.29 | 剖析 KIND(Kubernetes IN Docker) 的實作原理 | 實體會議 | COSCUP 2023 | [link](https://www.slideshare.net/hongweiqiu/learned-from-kind)     |
+| 2023.07.30 | Grafana 全家桶，如何打造高可用且具可擴充性的 o11y 平台 | 實體會議 | COSCUP 2023 | [link](https://www.slideshare.net/hongweiqiu/learn-o11y-from-grafana-ecosystem)     |
+
