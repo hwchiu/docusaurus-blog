@@ -68,13 +68,18 @@ const config = {
             position: 'left',
             label: '我是誰',
           },
+	  {
+	    to: '/', 
+	    label: '短篇筆記',
+	    position: 'left',
+	    activeBaseRegex: '^/$',
+	    },
           {
             type: 'docSidebar',
             sidebarId: 'techPost',
             position: 'left',
             label: '長篇技術文',
           },
-	  {to: '/', label: '短篇筆記', position: 'left'},
           {
 	    to: '/course',
             position: 'left',
@@ -149,6 +154,7 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+   plugins: [require.resolve('docusaurus-lunr-search')],
 };
 
 module.exports = config;
