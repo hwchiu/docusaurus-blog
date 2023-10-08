@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Hwchiu',
+  title: 'hwchiu learning note',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -57,10 +57,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Hwchiu',
+        title: 'HWCHIU 學習筆記',
         logo: {
           alt: 'Hwchiu',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
