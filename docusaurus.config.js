@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
+  title: 'Hwchiu',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -57,9 +57,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Hwchiu',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Hwchiu',
           src: 'img/logo.svg',
         },
         items: [
@@ -104,46 +104,53 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '其他資源',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: '英文部落格',
+                href: 'https://hwchiu.medium.com/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Facebook Page(矽谷牛耕田筆記)',
+                href: 'https://www.facebook.com/technologynoteniu',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/hw_chiu',
+              },
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/hung-wei-chiu-52561494/',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Cloud Native Taiwan User Group(CNTUG)',
             items: [
               {
-                label: 'Blog',
-                to: '/',
+                label: 'Official Site',
+                href: 'https://cloudnative.tw/',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Youtube',
+                href: 'https://www.youtube.com/@cloudnativetaiwanusergroup',
+              },
+              {
+                label: 'Facebook',
+                href: 'https://www.facebook.com/groups/298183320685010',
+              },
+              {
+                label: 'CNCF Page',
+                href: 'https://community.cncf.io/cloud-native-taiwan-user-group/',
+              },
+              {
+                label: 'Telegram',
+                href: 'https://t.me/cntug',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} hwchiu. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
