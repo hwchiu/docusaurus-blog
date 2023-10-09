@@ -97,7 +97,7 @@ ArgoCD 的架構引用其[官網](https://argoproj.github.io/argo-cd/)
 
 4. 左下方的是 **Hook** 點， **ArgoCD** 本身針對 **Git Repo** 更新前後有提供相關的 **Hook**，可以在這邊將相關的訊息與其他系統銜接，譬如 Slack, Webhook 等，讓你的系統能夠有辦法接收到當前部署的狀況
 5. 右下方則是目標的 **Kubernetes Cluster**
-    - 對於 **ArgoCD** 來說，本身要先透過一套 **Kubernetes** 來架設服務，接者該 **ArgoCD** 可以針對不同的 **Kuberentes Cluster** 進行設定與存取。
+    - 對於 **ArgoCD** 來說，本身要先透過一套 **Kubernetes** 來架設服務，接者該 **ArgoCD** 可以針對不同的 **Kubernetes Cluster** 進行設定與存取。
     - 舉例來說，如果你環境內有多套 Kubernetes Cluster, 可以只用一套 **ArgoCD** 來管理這些 **Kubernetes Cluster**，將關注的 **Git Repo** 給部署到不同 **Kubernetes Cluster** 內的不同 namespace 下。
 
 

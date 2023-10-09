@@ -28,7 +28,7 @@ cat /sys/fs/cgroup/memory/memory.usage_in_bytes
 其中當系統因為 OOM 不足要開始找受害者下手時，被設定為 Guaranteed 的應用程式則會是最低優先度，只有真的找不到其他受害者時才會來處理 Guaranteed 類型的 Pod。
 
 最後則是更細部的去探討 Kubernetes 關於 Memory 的使用與管理
-對於 Kuberentes 來說， 當系統上 Memory 數量不足時，可能會觸發 Evict 的行為，開始將部分運行的 Pod 給踢出該節點，而如同前面所述， Kubernetes 是依賴
+對於 Kubernetes 來說， 當系統上 Memory 數量不足時，可能會觸發 Evict 的行為，開始將部分運行的 Pod 給踢出該節點，而如同前面所述， Kubernetes 是依賴
 Cgroup 來處理的，因此 /sys/fs/cgroup/memory/memory.usage_in_bytes 自然而然就成為其決策的重要參數
 
 其中要注意的是 /sys/fs/cgroup/memory/memory.usage_in_bytes 代表的並不是 "剛剛好系統上正在被使用的 Memory 數量"，其數值則是由

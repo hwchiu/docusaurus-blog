@@ -14,7 +14,7 @@ date: 2022-04-06 00:05:08
 
 熟悉 Linux 系統的人想必都了解 Signal 的概念，特別是幾個常見的如 SIGTERM, SIGKILL 等，
 
-作者的團隊嘗試透過 SIGKILL 的行為來驗證與測試團隊內部署的 Kuberentes Pod，特別是當遇到 ungraceful shutdown 的情境時這些 Pod 會如何運作。
+作者的團隊嘗試透過 SIGKILL 的行為來驗證與測試團隊內部署的 Kubernetes Pod，特別是當遇到 ungraceful shutdown 的情境時這些 Pod 會如何運作。
 團隊嘗試透過 kubectl delete 的方式來刪除這些 Pod，但是實驗過程中發現 --grace-period 這個參數的運作行為與團隊的預期行為不同。
 kubectl delete 得說明文件中特別指出
 

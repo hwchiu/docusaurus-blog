@@ -59,7 +59,7 @@ GitOps 的工具選擇非常多，市場上的發展非常快速，本篇文章�
 相對於 Terrafrom 來說，不同的公有雲廠商都有推出針對自己環境的工具，譬如 AWS 的 Cloud Formation, Azure 的 Azure Automation 或是 Goolge 的 Deployment Manager。
 這些工具都專注於其開發廠商，然而 Terraform 則透過套件系統讓其能夠支援的環境非常多樣化且具有發展性。
 
-最後，Kuberentes 本身則是透過 ClusterAPI 這個專案來達成 GitOps 版本的基礎架構交付工作，透過這個專案我們可以用 Kubernetes 內習慣的宣告式語言來定義 Kuberentes Cluster 並創建。
+最後，Kubernetes 本身則是透過 ClusterAPI 這個專案來達成 GitOps 版本的基礎架構交付工作，透過這個專案我們可以用 Kubernetes 內習慣的宣告式語言來定義 Kubernetes Cluster 並創建。
 過往的狀態下，使用者都是基於各家廠商自有的 API 去開發相關的工具，更多情況下則是手動操作。
 但是透過 ClusterAPI 的發展，我們可以利用 Kubernetes 本身的機制來幫我們創建與管理其他的 Kubernetes 叢集，只要透過 ClusterAPI 去規範與定義目標狀態即可。
 

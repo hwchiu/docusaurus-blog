@@ -5,7 +5,7 @@ tags:
   - Kubernetes
   - Container
   - Linux
-description: 本文主要跟大家分享如何透過 Static Pod 的方式來滿足用 Kuberentes 管理 API-Server/Controller/Scheduler 這些 Kubernetes 的基礎元件，其中 Static Pod 更是 Kubeadm 的架設原理，透過這個方式我們也可以更加了解 Kubeadm 的安裝方式
+description: 本文主要跟大家分享如何透過 Static Pod 的方式來滿足用 Kubernetes 管理 API-Server/Controller/Scheduler 這些 Kubernetes 的基礎元件，其中 Static Pod 更是 Kubeadm 的架設原理，透過這個方式我們也可以更加了解 Kubeadm 的安裝方式
 ---
 
 # Preface
@@ -206,7 +206,7 @@ vagrant@k8s-dev:~$
 ]
 ```
 
-其實這邊已經透漏出了玄機，這些 **Pod** 是由 **節點Node** 本身去維護的，本身不依賴任何我們到的 workload 型態。 節點取代了過往的 **Kuberentes Controller** 去確保三個核心功能的 Pod 必須活者
+其實這邊已經透漏出了玄機，這些 **Pod** 是由 **節點Node** 本身去維護的，本身不依賴任何我們到的 workload 型態。 節點取代了過往的 **Kubernetes Controller** 去確保三個核心功能的 Pod 必須活者
 
 而這個用法就是所謂的 Static Pod
 

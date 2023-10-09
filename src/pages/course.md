@@ -28,7 +28,7 @@ title: 線上課程
 
 [95折優惠連結](https://hiskio.com/courses/349/about?hi=5R7Q3NO9EP9D&amp;s=tc)
 
-## Kuberentes 實戰除錯篇
+## Kubernetes 實戰除錯篇
 
 本課程基於 Kubernetes 龐大架構內，實戰上才遇到的迷思與錯誤，每一個章節都有完整的 Demo 環境，讓你知道每個元件出錯時可能會造成什麼樣的後果，或是這些元件應該要怎麼用，使用上有什麼限制以及要注意的地方。透過本課程你會對 Kubernetes 更加裡解，同時使用上會更有信心與能力去使用，縱使遇到問題時也會有能力知道該從哪邊下手去判斷錯誤。
 
@@ -40,7 +40,7 @@ title: 線上課程
 
 [95折優惠連結](https://hiskio.com/courses/385/about?hi=O41R3YVO3908&amp;s=tc)
 
-## kubernetes 實作手冊： GitOps 版控整合篇
+## Kubernetes 實作手冊： GitOps 版控整合篇
 
 GitOps 的概念源自於 Weaveworks 於 2017 所提出的一個想法，是透過 GitOps 帶來一個針對 Cloud Native 的全新 CD 方式。概念雖新，但今年導入此概念的企業卻比去年提升了5成之多。已有包括 LINE 在內多家金融業以及科技業等大公司導入，未來發展性極高！
 

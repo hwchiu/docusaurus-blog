@@ -4,7 +4,7 @@ authors: hwchiu
 tags:
   - Reading
   - Network
-  - Kuberentes
+  - Kubernetes
 description: '「Mizu, 一套用來檢視 Kubernetes Traffic 的視覺化工具」'
 date: 2022-05-25 00:05:08
 ---

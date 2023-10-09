@@ -181,7 +181,7 @@ containers:
 
 ```
 
-最後就是微調一些跟 Kubernetes 有關的參數，詳細設定都可以參閱 [Running Spark on Kuberentes](https://spark.apache.org/docs/latest/running-on-kubernetes.html)
+最後就是微調一些跟 Kubernetes 有關的參數，詳細設定都可以參閱 [Running Spark on Kubernetes](https://spark.apache.org/docs/latest/running-on-kubernetes.html)
 
 ```yaml=
 apiVersion: v1
