@@ -80,7 +80,6 @@ const config = {
 	    to: '/tags', 
 	    label: '短篇筆記-分類',
 	    position: 'left',
-	    activeBaseRegex: '^/$',
 	  },
           {
             type: 'docSidebar',
@@ -92,7 +91,6 @@ const config = {
 	    to: '/docs/tags', 
 	    label: '長篇技術文-分類',
 	    position: 'left',
-	    activeBaseRegex: '^/$',
 	  },
           {
 	    to: '/course',
