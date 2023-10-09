@@ -4,7 +4,7 @@ date: '2013-11-24 12:39'
 author: hwchiu
 tags:
   - System
-  - Tools
+  - Tool
 description: 記錄一些之前寫 Shell Script 作業的心得與筆記
 
 ---
