@@ -34,7 +34,7 @@ core的部分提供的都是比較核心的功能，譬如PacketIN,PacketOUt,或
 
 2. getServiceImpls()
 	回傳一個型態為 `key = <Class<? extends IFloodlightService> value = IFloodlightService`的map container,已包含一個成員，其value 為 Controler()。
-	在FloodlightModuleLoader中會執行initModules此function,會把所有要用到的module都產生一份物件，並且透過`floodlightModuleContext.addService`把這些物件都收集起來，這樣所有的module就可以透過floodlightModuleContext.getServiceImpl(Class<T> service)的方式來取得其他的module物件。
+	在FloodlightModuleLoader中會執行initModules此function,會把所有要用到的module都產生一份物件，並且透過`floodlightModuleContext.addService`把這些物件都收集起來，這樣所有的module就可以透過`floodlightModuleContext.getServiceImpl(Class<T> service)`的方式來取得其他的module物件。
 
 3. getModuleDependencies()
 	回傳這個module會用到的相關module,在FloodlightModuleLoader中會執行使用BFS的方式來取得所有用到的module,接者才會去執行module相關的初始化行為。
@@ -53,7 +53,7 @@ core的部分提供的都是比較核心的功能，譬如PacketIN,PacketOUt,或
 ###IFloodlightProviderService.java###
 繼承自IFloodlightService並且提供一些基本功能，這邊列出幾個重要功能。
 
-1. bcStore 是一個FloodlightContextStore<Ethernet> 的成員，用來存取Ethernet的值，包含了MAC address,VlanID,Ehternet Type。
+1. bcStore 是一個`FloodlightContextStore<Ethernet>` 的成員，用來存取Ethernet的值，包含了MAC address,VlanID,Ehternet Type。
 存取時會用到IFloodlightService 所定義的一個變數*CONTEXT_PI_PAYLOAD*
 
 2. addOFMessageListener(OFType type, IOFMessageListener listener)
@@ -86,10 +86,10 @@ IOFMessageListener 則是一個Interface,必須實做該介面並override下列f
 3. removeOFMessageListener(OFType type, IOFMessageListener listener)
 取消註冊，與(2)對應。
 
-4. Map<OFType, List<IOFMessageListener>> getListeners();
+4. `Map<OFType, List<IOFMessageListener>> getListeners()`;
 取得所有Listener。
 
-5. Map<Long, IOFSwitch> getSwitches()
+5. `Map<Long, IOFSwitch> getSwitches()`
 取得所有連上的switch與其ID
 
 6. public void addOFSwitchListener(IOFSwitchListener listener);

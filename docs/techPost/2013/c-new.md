@@ -27,17 +27,19 @@ int* myInt = new int(123);
 3. return a pointer which point to this Object
 
 所以今天呼叫`string* myStr = new string("aa155495");`會做下列事情
+```
 1. void* memory = operator new (sizeof(string));
 2. call string::string() on memory;
 3. string* ptr = static_cast<string*>(memory);
 4. return ptr
+```
 
 第一步就是要先去memory中要空間，這部分就是透過 ***operator new*** 來完成。
 第二部就是在要到的空間上，呼叫對應物件的建構式，這部分就是透過 ***placement new*** 來完成。
 接者就是取得一個該型態的指標，並且回傳。
 
 ## operator new ##
-不同於 ***new operator*** ,operator new 是一個運算符號，就類似+-*/[]<>這種，所以可以overridding.
+不同於 ***new operator*** ,operator new 是一個運算符號，就類似`+-*/[]<>`這種，所以可以overridding.
 
 當呼叫operator new時，會嘗試從heap中去取得對應大小的空間，如果成功則返回，否則會去呼叫new_handler來處理
 並且繼續重覆該事情直到得到exception為止。

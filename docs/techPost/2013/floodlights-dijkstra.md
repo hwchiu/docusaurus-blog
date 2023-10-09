@@ -33,13 +33,14 @@ description: 這篇文章用來介紹在 Fllodlight 中是如何去完成下列�
 
 # Memember
 
--  HashMap<Long, Link> nexthoplinks
+
+-  `HashMap<Long, Link>` nexthoplinks
    用來記錄其shortest path tree的結構，key是switch node, value是連接到該switch node是透過哪條link。
--  HashMap<Long, Integer> cost
+-  `HashMap<Long, Integer>` cost
    用來記錄目前到某個switch node的cost是多少。
--  HashMap<Long, Boolean> seen
+-  `HashMap<Long, Boolean>` seen
    用來記錄某個switch是否已經拜訪過
--  PriorityQueue<NodeDist> nodeq
+-  `PriorityQueue<NodeDist>` nodeq
    一個優先佇列，會根據到達該switch node的cost為基準去排序。
 
 

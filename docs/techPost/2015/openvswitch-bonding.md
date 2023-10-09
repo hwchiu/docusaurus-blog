@@ -60,7 +60,7 @@ Openvswitch 目前 (2.3.1) 總共支援 3種bonding mode，分別是
 - Windows PC *2
 
 ### 測試拓樸一
-<img class="left" src="http://i.imgur.com/RbsM1rF.png">
+![](http://i.imgur.com/RbsM1rF.png")
 
 - linux PC 上面安裝 OpenvSwitch，並且與 HP Switch 以兩個 1G 的 port 進行 bonding。
 - 兩台 Windows PC 都連接在 HP Switch
@@ -83,7 +83,8 @@ Openvswitch 目前 (2.3.1) 總共支援 3種bonding mode，分別是
 
 
 ### 測試拓樸二
-<img class="left" src="http://i.imgur.com/Fm3Coea.png">
+![](http://i.imgur.com/Fm3Coea.png")
+
 - linux PC 上面安裝 OpenvSwitch，並且與 HP Switch 以兩個 1G 的 port 進行 bonding。
 - linux PC 上面設定兩個獨立的 network namespace，並且把此兩個 NS 的給掛到 OpenvSwitch 上面
 - 兩台 Windows PC 都連接在 HP Switch
@@ -110,8 +111,4 @@ Openvswitch 目前 (2.3.1) 總共支援 3種bonding mode，分別是
 - 若是在多 VM 的環境下，這時候有 balance-slb 與 balance-tcp 可以考慮(假設想要 speed up)，這兩個主要考慮的點在於
 使用 balance-slb 的話，會讓同一個 VM 的所有流量都走同一個 interface 出去，所以若當前其他 VM 都閒置的情況下，該 VM 還是只能用到一條 link 的資源。
 若採用 balance-tcp 的話，則會依照 connction 來分，所以不論何種情況都能夠盡量使用每條 link 的資源
-
-
-## 其他
-- 流量的觀察方式是在 linux PC 上面透過 /proc/net/dev 週期性觀察兩張 slave interface 的 TX/RX counter計算得知，週期性為一秒。
 

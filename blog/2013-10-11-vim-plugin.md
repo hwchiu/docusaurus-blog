@@ -75,8 +75,9 @@ nnoremap <Esc>8 gt8
 
 
 ### 更改呼叫方式，使用F5
+```
 nnoremap <silent> <F5> :NERDTree<CR>
-
+```
 
 ### 在各界面中移動
 
@@ -88,8 +89,8 @@ nnoremap <silent> <F5> :NERDTree<CR>
 
 - 水平切割 (在該檔案前按i)
 - 垂直切割 (在該檔案前按s)
-i :水平
-	s :垂直
+  i :水平
+  s :垂直
 
 ### tab使用
 
