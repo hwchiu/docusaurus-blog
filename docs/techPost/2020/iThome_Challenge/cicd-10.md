@@ -1,5 +1,6 @@
 ---
-title: Day 10 CI 與 Kubernetes 的整合
+title: CI 與 Kubernetes 的整合
+sidebar_position: 10
 tags:
   - iThome
   - DevOps

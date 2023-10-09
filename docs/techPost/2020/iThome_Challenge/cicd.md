@@ -1,5 +1,6 @@
 ---
 title: '鐵人賽系列文章 - DevOps 與 Kubernetes 的愛恨情仇'
+sidebar_position: 1
 tags:
   - iThome
   - DevOps

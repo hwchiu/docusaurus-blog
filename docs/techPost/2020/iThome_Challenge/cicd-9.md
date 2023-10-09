@@ -1,5 +1,6 @@
 ---
-title: Day 9 Pipeline System 介紹
+title: Pipeline System 介紹
+sidebar_position: 9
 tags:
   - iThome
   - DevOps

@@ -1,5 +1,6 @@
 ---
-title: Day 7 - 本地開發 Kubernetes 應用程式流程
+title: 本地開發 Kubernetes 應用程式流程
+sidebar_position: 7
 tags:
   - iThome
   - DevOps

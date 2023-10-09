@@ -1,5 +1,6 @@
 ---
-title: Day 20 - Container Registry 的方案介紹
+title: Container Registry 的方案介紹
+sidebar_position: 20
 tags:
   - iThome
   - DevOps

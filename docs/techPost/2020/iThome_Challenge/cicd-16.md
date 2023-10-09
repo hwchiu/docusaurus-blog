@@ -1,5 +1,6 @@
 ---
-title: 'Day 16 - GitOps 的介紹'
+title: 'GitOps 的介紹'
+sidebar_position: 16
 tags:
   - iThome
   - DevOps

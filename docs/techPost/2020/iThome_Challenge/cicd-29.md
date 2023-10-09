@@ -1,5 +1,6 @@
 ---
 title: Summary 
+sidebar_position: 29
 tags:
   - iThome
   - DevOps

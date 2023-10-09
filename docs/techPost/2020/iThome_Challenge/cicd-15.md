@@ -1,5 +1,6 @@
 ---
-title: 'Day15 - CD 之 Pull Mode 介紹: Keel'
+title: 'CD 之 Pull Mode 介紹: Keel'
+sidebar_position: 15
 tags:
   - iThome
   - DevOps

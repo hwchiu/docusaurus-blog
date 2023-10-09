@@ -1,5 +1,6 @@
 ---
-title: Day 23 - Secret 的部署問題與參考解法(上)
+title: Secret 的部署問題與參考解法(上)
+sidebar_position: 23
 tags:
   - iThome
   - DevOps

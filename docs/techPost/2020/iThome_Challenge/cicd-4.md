@@ -1,5 +1,6 @@
 ---
-title: 'Day 4 - Helm 操作範例'
+title: 'Helm 操作範例'
+sidebar_position: 4
 tags:
   - iThome
   - DevOps

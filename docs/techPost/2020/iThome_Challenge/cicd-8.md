@@ -1,5 +1,6 @@
 ---
-title: Day 8 Skaffold 本地開發與測試
+title: Skaffold 本地開發與測試
+sidebar_position: 8
 tags:
   - iThome
   - DevOps

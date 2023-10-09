@@ -1,5 +1,6 @@
 ---
-title: Day 11 - Kubernetes 應用測試
+title: Kubernetes 應用測試
+sidebar_position: 11
 tags:
   - iThome
   - DevOps

@@ -1,5 +1,6 @@
 ---
-title: Day 21 - 自架 Registry - Harbor
+title: 自架 Registry - Harbor
+sidebar_position: 21
 tags:
   - iThome
   - DevOps

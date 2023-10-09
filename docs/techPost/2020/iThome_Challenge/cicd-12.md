@@ -1,5 +1,6 @@
 ---
-title: Day 12 CI Pipeline x Kubernetes 結論
+title: CI Pipeline x Kubernetes 結論
+sidebar_position: 12
 tags:
   - iThome
   - DevOps

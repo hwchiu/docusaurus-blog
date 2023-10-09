@@ -1,5 +1,6 @@
 ---
-title: Day13 - CD 系統的選擇議題
+title: CD 系統的選擇議題
+sidebar_position: 13
 tags:
   - iThome
   - DevOps

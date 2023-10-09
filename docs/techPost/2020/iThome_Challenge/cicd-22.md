@@ -1,5 +1,6 @@
 ---
-title: Day 22 - 自架 Registry 與 Kubernetes 的整合
+title: 自架 Registry 與 Kubernetes 的整合
+sidebar_position: 22
 tags:
   - iThome
   - DevOps

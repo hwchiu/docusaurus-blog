@@ -1,5 +1,6 @@
 ---
-title: 'Day 5 淺談本地部署 Kubernetes 的各類選擇'
+title: '淺談本地部署 Kubernetes 的各類選擇'
+sidebar_position: 5
 tags:
   - iThome
   - DevOps

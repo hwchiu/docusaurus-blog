@@ -1,5 +1,6 @@
 ---
-title: Day26 - kubelet Plugin 介紹
+title: kubelet Plugin 介紹
+sidebar_position: 26
 tags:
   - iThome
   - DevOps

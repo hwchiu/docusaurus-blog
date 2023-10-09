@@ -1,5 +1,6 @@
 ---
-title: 'Day 2 - Kubernetes 物件管理'
+title: 'Kubernetes 物件管理'
+sidebar_position: 2
 tags:
   - iThome
   - DevOps

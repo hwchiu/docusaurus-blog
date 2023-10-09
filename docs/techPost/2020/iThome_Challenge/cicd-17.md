@@ -1,5 +1,6 @@
 ---
-title: Day 17 - GitOps 與 Kubernetes 的整合
+title: GitOps 與 Kubernetes 的整合
+sidebar_position: 17
 tags:
   - iThome
   - DevOps

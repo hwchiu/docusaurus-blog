@@ -1,5 +1,6 @@
 ---
-title: 'Day 3 - Helm 介紹'
+title: 'Helm 介紹'
+sidebar_position: 3
 tags:
   - iThome
   - DevOps

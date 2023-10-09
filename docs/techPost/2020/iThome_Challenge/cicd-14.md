@@ -1,5 +1,6 @@
 ---
-title: Day 14 - CD 與 Kubernetes 的整合
+title: CD 與 Kubernetes 的整合
+sidebar_position: 14
 tags:
   - iThome
   - DevOps

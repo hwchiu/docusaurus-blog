@@ -1,5 +1,6 @@
 ---
-title: Day 28 - Kubernetes 第三方好用工具介紹
+title: Kubernetes 第三方好用工具介紹
+sidebar_position: 28
 tags:
   - iThome
   - DevOps

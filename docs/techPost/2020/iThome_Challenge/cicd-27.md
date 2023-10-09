@@ -1,5 +1,6 @@
 ---
-title: Day27 - Kubernetes plugin 範例
+title: Kubernetes plugin 範例
+sidebar_position: 27
 tags:
   - iThome
   - DevOps

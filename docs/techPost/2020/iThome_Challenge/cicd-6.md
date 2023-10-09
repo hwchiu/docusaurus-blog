@@ -1,5 +1,6 @@
 ---
-title: Day 6 K3D 與KIND 的部署示範
+title: K3D 與KIND 的部署示範
+sidebar_position: 6
 tags:
   - iThome
   - DevOps

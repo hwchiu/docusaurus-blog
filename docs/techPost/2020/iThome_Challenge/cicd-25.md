@@ -1,5 +1,6 @@
 ---
-title: 'Day 25 - Secret 使用範例: sealed-secrets'
+title: 'Secret 使用範例: sealed-secrets'
+sidebar_position: 25
 tags:
   - iThome
   - DevOps

@@ -1,5 +1,6 @@
 ---
-title: Day 19  - Container Registry 的介紹及需求
+title: Container Registry 的介紹及需求
+sidebar_position: 19
 tags:
   - iThome
   - DevOps

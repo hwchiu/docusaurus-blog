@@ -1,5 +1,6 @@
 ---
-title: Day 18 - GitOps - ArgoCD 介紹
+title: GitOps - ArgoCD 介紹
+sidebar_position: 18
 tags:
   - iThome
   - DevOps
