@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「為什麼有些工程師不相信 Best Practices 」'
+authors: hwchiu
 tags:
   - Reading
 description: 「為什麼有些工程師不相信 Best Practices 」

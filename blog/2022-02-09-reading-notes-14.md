@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「透過一點小技巧讓你的 Makefile 有一個更好的 Help說明」'
+authors: hwchiu
 tags:
   - Reading
   - Linux

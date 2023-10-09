@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「istio 下因為YAML 與 Go template 結合產生的 CVE」'
+authors: hwchiu
 tags:
   - Reading
   - ServiceMesh

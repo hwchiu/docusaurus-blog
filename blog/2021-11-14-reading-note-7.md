@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「terraform,Terraform Module 依賴性討論」'
+authors: hwchiu
 tags:
   - Reading
   - Terraform

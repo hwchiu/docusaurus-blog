@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「/proc/meminfo 與 free 指令的內容比較」'
+authors: hwchiu
 tags:
   - Reading
   - Linux

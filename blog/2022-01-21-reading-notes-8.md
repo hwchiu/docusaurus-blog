@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「Kubernetes 內透過 DNS-01 處理 wildcard TLS 的兩三事」'
+authors: hwchiu
 tags:
   - Reading
   - Kubernetes

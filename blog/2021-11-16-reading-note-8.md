@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「CRD 與 Operator 的探討」'
+authors: hwchiu
 tags:
   - Reading
   - Kubernetes

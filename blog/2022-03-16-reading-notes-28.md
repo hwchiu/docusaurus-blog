@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「Package Maintainers 應該要具備的資安概念」'
+authors: hwchiu
 tags:
   - Reading
 description: 「Package Maintainers 應該要具備的資安概念」

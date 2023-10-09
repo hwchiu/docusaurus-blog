@@ -1,6 +1,7 @@
 ---
 title: >-
-  閱讀筆記: 「如何用 2297 個 Linux Kernel Patches 來重新整理所有的 header file 並提升整個 Kernel
+authors: hwchiu
+閱讀筆記: 「如何用 2297 個 Linux Kernel Patches 來重新整理所有的 header file 並提升整個 Kernel
   建置時間高達 78」
 tags:
   - Reading

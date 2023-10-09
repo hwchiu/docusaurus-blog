@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「分散式系統上的常見網路謬誤」'
+authors: hwchiu
 tags:
   - Reading
   - Network

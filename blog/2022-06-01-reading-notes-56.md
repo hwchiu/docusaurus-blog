@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「goss, 一個簡易且迅速的 server 驗證工具」'
+authors: hwchiu
 tags:
   - Reading
 description: '「goss, 一個簡易且迅速的 server 驗證工具」'

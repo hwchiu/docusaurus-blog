@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「GitHub 上常常看到的奇妙 commit 到底是什麼？」'
+authors: hwchiu
 tags:
   - Reading
   - Git

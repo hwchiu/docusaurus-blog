@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「使用 StressChaos 的經驗來學習 Pod Memory 使用情況」'
+authors: hwchiu
 tags:
   - Reading
   - Kubernetes

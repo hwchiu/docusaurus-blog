@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「Dockerfile 中透過 COPY --chomd 比透過 RUN chomd 可以省下更多空間」'
+authors: hwchiu
 tags:
   - Reading
   - Docker

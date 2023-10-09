@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「ClickHouse 與 Elasticsearch 的比較」'
+authors: hwchiu
 tags:
   - Reading
 description: 「ClickHouse 與 Elasticsearch 的比較」

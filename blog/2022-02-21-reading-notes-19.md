@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「macOS 的 fsync 實作其實跟大家想像的完全不同 」'
+authors: hwchiu
 tags:
   - Reading
 description: 「macOS 的 fsync 實作其實跟大家想像的完全不同 」

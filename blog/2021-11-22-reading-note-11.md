@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「Kubernetes manageFields 討論」'
+authors: hwchiu
 tags:
   - Reading
   - Kubernetes

@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「本地開發 Kubernetes 的各種選擇」'
+authors: hwchiu
 tags:
   - Reading
   - Kubernetes

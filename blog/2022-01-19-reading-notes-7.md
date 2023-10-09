@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「透過 Crossplane 與 ArgoCD 來達成應用程式與基礎建設的 GitOps 部署方式」'
+authors: hwchiu
 tags:
   - Reading
   - GitOps

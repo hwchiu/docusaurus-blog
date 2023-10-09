@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「透過 Kubernetes Event-Driver Autoscaler(KEDA) 來根據各種指標動態擴充容器」'
+authors: hwchiu
 tags:
   - Reading
   - Kubernetes

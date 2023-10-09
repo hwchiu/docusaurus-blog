@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「使用 OpenKruise v1.0 提供更進階的 workload 部署與升級」'
+authors: hwchiu
 tags:
   - Reading
   - Kubernetes

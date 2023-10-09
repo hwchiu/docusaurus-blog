@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「Golang 原始碼的的版本控制歷史」'
+authors: hwchiu
 tags:
   - Reading
   - Golang

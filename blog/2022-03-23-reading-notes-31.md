@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「為什麼 3A 大作的遊戲室都不愛喜歡使用 STL」'
+authors: hwchiu
 tags:
   - Reading
 description: 「為什麼 3A 大作的遊戲室都不愛喜歡使用 STL」

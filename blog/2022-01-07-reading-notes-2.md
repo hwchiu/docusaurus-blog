@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「透過 Kubefarm 來自動化幫實體機器打造基於 Kubernetes in Kubernetes 的 Kubernetes 環境」'
+authors: hwchiu
 tags:
   - Reading
   - Kubernetes

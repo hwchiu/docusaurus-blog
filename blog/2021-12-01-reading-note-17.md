@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「使用 Open Policy Agent 來保護 Ingress 的誤用」'
+authors: hwchiu
 tags:
   - Reading
   - Kubernetes

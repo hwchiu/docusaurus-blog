@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「一個用來管理 Kubernetes 開源工具的開源工具」'
+authors: hwchiu
 tags:
   - Reading
   - Kubernetes

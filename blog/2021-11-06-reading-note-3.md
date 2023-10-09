@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「七個邁向 Cloud Native 的挑戰!!」'
+authors: hwchiu
 tags:
   - Reading
   - CloudNative

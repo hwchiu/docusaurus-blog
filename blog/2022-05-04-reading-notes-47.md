@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「容器的除錯之路，遇到 Permission Denied 該怎麼辦」'
+authors: hwchiu
 tags:
   - Reading
   - Container

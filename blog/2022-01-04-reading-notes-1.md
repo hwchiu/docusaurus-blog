@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「Meta 如何打造一個供多團隊使用的 SLI/SLO 設定與觀測平台」'
+authors: hwchiu
 tags:
   - Reading
   - DevOps

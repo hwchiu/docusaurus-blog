@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「升級 Kubernetes 1.22 的注意事項」'
+authors: hwchiu
 tags:
   - Reading
   - Kubernetes

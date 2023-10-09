@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「How to enforce Kubernetes network security policies using OPA」'
+authors: hwchiu
 tags:
   - Reading
   - Kubernetes

@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「DevOps 的 2022 學習之路」'
+authors: hwchiu
 tags:
   - Reading
   - DevOps

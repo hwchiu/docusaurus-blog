@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「kubectl delete 的行為跟 docker delete 完全不同」'
+authors: hwchiu
 tags:
   - Reading
   - Kubectl

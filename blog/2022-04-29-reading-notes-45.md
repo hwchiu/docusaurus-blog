@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「使用 serverless 5年後的心酸經驗談」'
+authors: hwchiu
 tags:
   - Reading
   - Serverless

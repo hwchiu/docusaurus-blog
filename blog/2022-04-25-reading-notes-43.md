@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「三座獨立 k8s cluster 還是一個跨三個地區的 k8s cluster ?」'
+authors: hwchiu
 tags:
   - Reading
   - Kubernetes

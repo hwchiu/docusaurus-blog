@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「Terraform 生態下的五個相關輔助工具」'
+authors: hwchiu
 tags:
   - Reading
   - Terraform

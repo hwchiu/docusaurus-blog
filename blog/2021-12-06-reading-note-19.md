@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「Kubernetes Resource Limit/Request 誤用造成的錯誤」'
+authors: hwchiu
 tags:
   - Reading
   - Kubernetes

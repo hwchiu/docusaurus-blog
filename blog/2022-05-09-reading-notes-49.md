@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「提升 DevOps 技術的免費書籍」'
+authors: hwchiu
 tags:
   - Reading
   - DevOps

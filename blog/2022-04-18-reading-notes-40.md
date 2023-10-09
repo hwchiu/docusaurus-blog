@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「強化 Kubernetes 叢集的必備工具」'
+authors: hwchiu
 tags:
   - Reading
   - Kubernetes

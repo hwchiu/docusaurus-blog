@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「Rancher v2.5 Release」'
+authors: hwchiu
 tags:
   - Reading
   - Rancher

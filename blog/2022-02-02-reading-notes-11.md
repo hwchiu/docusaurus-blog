@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「如何使用 jq 讓你的 kubectl更為強大」'
+authors: hwchiu
 tags:
   - Reading
   - Kubernetes

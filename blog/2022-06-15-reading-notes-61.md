@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「啟動 container 直接 kernel panic 的 bug」'
+authors: hwchiu
 tags:
   - Reading
   - Container

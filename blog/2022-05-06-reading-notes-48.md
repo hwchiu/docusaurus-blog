@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「新手閱讀，我踩過的 Terraform 各種雷」'
+authors: hwchiu
 tags:
   - Reading
   - Terraform

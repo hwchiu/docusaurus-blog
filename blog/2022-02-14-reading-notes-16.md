@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「 談談遷移應用程式到 Kubernetes 內的失敗經驗談」'
+authors: hwchiu
 tags:
   - Reading
   - Kubernetes

@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「你真的有正確使用 SSH 嗎?」'
+authors: hwchiu
 tags:
   - Reading
 description: 「你真的有正確使用 SSH 嗎?」

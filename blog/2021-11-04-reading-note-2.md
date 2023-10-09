@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「淺談 Service Mesh」'
+authors: hwchiu
 tags:
   - Reading
   - ServiceMesh

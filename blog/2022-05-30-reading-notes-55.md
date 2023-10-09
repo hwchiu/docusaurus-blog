@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「如何寫出有意義的討論訊息 」'
+authors: hwchiu
 tags:
   - Reading
 description: 「如何寫出有意義的討論訊息 」

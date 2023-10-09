@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「面試人生 - 設計一個簡易的分散式 Job Scheduler」'
+authors: hwchiu
 tags:
   - Reading
 description: 「面試人生 - 設計一個簡易的分散式 Job Scheduler」

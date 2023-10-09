@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「Kubernetes 多租戶實作的挑戰」'
+authors: hwchiu
 tags:
   - Reading
   - Kubernetes

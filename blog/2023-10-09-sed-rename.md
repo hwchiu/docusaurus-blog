@@ -1,8 +1,10 @@
 ---
-title: 隨手筆記 Sed 與 Rename 的使用
-authors: hwchiu
+title: '[MacOS ]隨手筆記 Sed 與 Rename 的使用'
+authors:hwchiu
 tags:
-  - Linux
+  - Mac
+  - System
+  - Sed
 ---
 
 刪除特定一行
@@ -13,6 +15,20 @@ sed '/^keywords:/d' input > output
 刪除符合字串後的所有行數
 ```
 sed '/^keywords/,$d' input > output
+```
+
+搭配 Find 達到大量修改所有檔案
+
+統一刪除所有檔案
+```
+find . -type f -exec sed -i '' '/^authors:/d' {} +
+```
+
+Append 一行新的，換行要特別注意處理
+```
+find . -type f -exec sed -i '' '/^title/a\
+authors: hwchiu\
+' {} +
 ```
 
 假設環境中有大量檔案需要改名稱，透過 rename 這個工具可以快速達成

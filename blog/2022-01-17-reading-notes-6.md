@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「The pains of GitOps 1.0」'
+authors: hwchiu
 tags:
   - Reading
   - GitOps

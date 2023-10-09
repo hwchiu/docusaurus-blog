@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「SRE 的工作介绍」'
+authors: hwchiu
 tags:
   - Reading
   - SRE

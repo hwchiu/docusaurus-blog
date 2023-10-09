@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「Paypal 如何調整 Kubernetes 讓其規模達到四千節點，20萬個 Pod」'
+authors: hwchiu
 tags:
   - Reading
   - Kubernetes

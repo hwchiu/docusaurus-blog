@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「透過 Helm 與 Terraform 來自動 Re-new Cloudflare origin CA」'
+authors: hwchiu
 tags:
   - Reading
   - Kubernetes

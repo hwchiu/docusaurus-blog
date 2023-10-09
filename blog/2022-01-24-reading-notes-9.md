@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「Linux 5.17 將使用 BLAKE2s 來替代 SAH1 來達到更安全更快速的隨機亂數產生器」'
+authors: hwchiu
 tags:
   - Reading
   - Linux

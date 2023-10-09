@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「PwnKit, 長達 12 年可以讓一般使用者輕鬆變成 Root 的 CVE」'
+authors: hwchiu
 tags:
   - Reading
   - Security

@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「使用 k3s Rancher Vault and ArgoCD 來實作 GitOps」'
+authors: hwchiu
 tags:
   - Reading
   - GitOps

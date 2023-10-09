@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「DNS 5 秒 Dealy 的緣由」'
+authors: hwchiu
 tags:
   - Reading
   - Network

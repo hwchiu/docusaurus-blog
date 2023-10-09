@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「Amazon EKS Upgrade Journey From 1.17 to 1.18」'
+authors: hwchiu
 tags:
   - Reading
   - AWS

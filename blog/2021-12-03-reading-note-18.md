@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「Container Image 的儲存挑戰」'
+authors: hwchiu
 tags:
   - Reading
   - Container

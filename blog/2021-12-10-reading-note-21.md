@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「三個加強 Kubernetes 服務穩定性的經驗」'
+authors: hwchiu
 tags:
   - Reading
   - Kubernetes

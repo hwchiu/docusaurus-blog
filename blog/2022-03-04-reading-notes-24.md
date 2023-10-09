@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「Kubernetes 紀錄片 」'
+authors: hwchiu
 tags:
   - Reading
   - Kubernetes

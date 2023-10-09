@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「DevOps is a failure」'
+authors: hwchiu
 tags:
   - Reading
   - DevOps

@@ -1,5 +1,6 @@
 ---
 title: '閱讀筆記: 「成為軟體架構師的閱讀之路」'
+authors: hwchiu
 tags:
   - Reading
 description: 「成為軟體架構師的閱讀之路」
