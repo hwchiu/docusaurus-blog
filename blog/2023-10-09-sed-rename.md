@@ -4,7 +4,7 @@ authors: hwchiu
 tags:
   - Mac
   - System
-  - Sed
+  - Tools
 ---
 
 刪除特定一行

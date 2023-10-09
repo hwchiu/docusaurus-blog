@@ -83,7 +83,7 @@ description: 在這個資訊安全意識稍微抬頭的世代，網站配有 HTT
 這個選項目前會用到的機會不多，大致上有兩種情境
 1. 想要透過 `kubernetes` 打造一個 `Public Key Infrastructur (PKI)` 架構
 2. 搭配後續會介紹的 `Certificate` 作為一個 `root CA` 供 `CA` 型態的 `Issuers` 使用
-    -. 可以參考 [resource-validation-webhook](/https://github.com/jetstack/cert-manager/blob/834fda15a1160b3e75d92ab7d84b1402eac9be0a/docs/admin/resource-validation-webhook.rst) 的使用範例來瞭解如何搭配使用
+    -. 可以參考 [resource-validation-webhook](https://github.com/jetstack/cert-manager/blob/834fda15a1160b3e75d92ab7d84b1402eac9be0a/docs/admin/resource-validation-webhook.rst) 的使用範例來瞭解如何搭配使用
 
 
 想要更加深入的瞭解這些選項可以直接到[官網](http://docs.cert-manager.io/en/latest/reference/issuers.html)閱讀相關的資訊以及範例使用
