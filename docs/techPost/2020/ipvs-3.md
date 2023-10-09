@@ -162,8 +162,7 @@ make -j4
 其中第二部會彈出一個灰色畫面，可以透過 `f` 進行參數的搜尋，找到對應的位置，然後將其打該設定成 **Y** 即可，畫面如下
 ![](https://i.imgur.com/TuejssF.png)
 ![](https://i.imgur.com/VakjFDI.png)
-圖中也可以看到 **IPVS** 滿滿的參數有哪些，其中標示為 <M> 都代表會建置成獨立的 **kernel module**，如果有興趣的也可以將全部變成 **Build-in** 的方式，這意味 **kernel** 本身就會包含這些功能，不需要額外在那邊 **insmod/rmmod**。
-
+圖中也可以看到 **IPVS** 滿滿的參數有哪些，其中標示為 "M" 都代表會建置成獨立的 **kernel module**，如果有興趣的也可以將全部變成 **Build-in** 的方式，這意味 **kernel** 本身就會包含這些功能，不需要額外在那邊 **insmod/rmmod**。
 
 此外如果你本身已經有建置過 **kernel** 的話，可以直接輸入 **make modules** 單純編譯 **kernel modules** 相關即可
 

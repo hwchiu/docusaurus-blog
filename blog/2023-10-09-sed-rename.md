@@ -1,6 +1,6 @@
 ---
 title: '[MacOS ]隨手筆記 Sed 與 Rename 的使用'
-authors:hwchiu
+authors: hwchiu
 tags:
   - Mac
   - System

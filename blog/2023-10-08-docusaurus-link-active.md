@@ -1,6 +1,6 @@
 ---
 title: Docusaurus 使用 blog mode 後連結一直反白的問題
-authors:hwchiu
+authors: hwchiu
 tags: [docusaurus]
 ---
 
