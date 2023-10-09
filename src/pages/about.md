@@ -38,6 +38,7 @@ title: Markdown page example
 ## iThome 系列文章
 - [2019 Kubernetes 原理探討](/docs/techPost/2019/iThome_Challenge/k8s-design)
 - [2020 Kubernetes CI/CD](/docs/techPost/2020/iThome_Challenge/cicd)
+- [2021 Rancher Platform](/docs/techPost/2021/iThome_Challenge/day1)
 
 ## 公開演講
 - COSCUP 2018 x openSUSE.Asia GNOME.Asia / 講者
