@@ -75,13 +75,25 @@ const config = {
 	    label: '短篇筆記',
 	    position: 'left',
 	    activeBaseRegex: '^/$',
-	    },
+	  },
+	  {
+	    to: '/tags', 
+	    label: '短篇筆記-分類',
+	    position: 'left',
+	    activeBaseRegex: '^/$',
+	  },
           {
             type: 'docSidebar',
             sidebarId: 'techPost',
             position: 'left',
             label: '長篇技術文',
           },
+	  {
+	    to: '/docs/tags', 
+	    label: '長篇技術文-分類',
+	    position: 'left',
+	    activeBaseRegex: '^/$',
+	  },
           {
 	    to: '/course',
             position: 'left',
