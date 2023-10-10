@@ -107,11 +107,6 @@ const config = {
             position: 'left',
             label: '演講紀錄',
           },
-          {
-            href: 'https://github.com/hwchiu/docusaurus-blog',
-            label: 'GitHub',
-            position: 'right',
-          },
         ],
       },
       footer: {
