@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhwchiu=self.webpackChunkhwchiu||[]).push([[90131],{50088:e=>{e.exports=JSON.parse('{"label":"ResourceManagement","permalink":"/tags/resource-management","allTagsPath":"/tags","count":3}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhwchiu=self.webpackChunkhwchiu||[]).push([[30577],{23601:t=>{t.exports=JSON.parse('{"label":"Bluetooth","permalink":"/docs/tags/bluetooth","allTagsPath":"/docs/tags","count":1,"items":[{"id":"techPost/2014/bluze-5x","title":"Bluez 5.x ","description":"Introduction","permalink":"/docs/techPost/2014/bluze-5x"}]}')}}]);

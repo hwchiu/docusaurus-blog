@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhwchiu=self.webpackChunkhwchiu||[]).push([[95704],{28590:e=>{e.exports=JSON.parse('{"permalink":"/tags/system","page":1,"postsPerPage":10,"totalPages":2,"totalCount":16,"nextPage":"/tags/system/page/2","blogDescription":"Blog","blogTitle":"Blog"}')}}]);

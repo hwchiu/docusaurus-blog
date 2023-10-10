@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhwchiu=self.webpackChunkhwchiu||[]).push([[97416],{15648:e=>{e.exports=JSON.parse('{"label":"Kernel","permalink":"/tags/kernel","allTagsPath":"/tags","count":3}')}}]);

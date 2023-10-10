@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhwchiu=self.webpackChunkhwchiu||[]).push([[28973],{11331:a=>{a.exports=JSON.parse('{"label":"Vim","permalink":"/tags/vim","allTagsPath":"/tags","count":1}')}}]);

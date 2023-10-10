@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhwchiu=self.webpackChunkhwchiu||[]).push([[79762],{73559:s=>{s.exports=JSON.parse('{"label":"GitOps","permalink":"/tags/git-ops","allTagsPath":"/tags","count":3}')}}]);

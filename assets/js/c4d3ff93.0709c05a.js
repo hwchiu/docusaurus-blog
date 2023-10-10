@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhwchiu=self.webpackChunkhwchiu||[]).push([[10563],{6426:a=>{a.exports=JSON.parse('{"label":"Matlab","permalink":"/tags/matlab","allTagsPath":"/tags","count":1}')}}]);

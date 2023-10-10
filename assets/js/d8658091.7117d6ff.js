@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhwchiu=self.webpackChunkhwchiu||[]).push([[78298],{96152:a=>{a.exports=JSON.parse('{"label":"Anki","permalink":"/tags/anki","allTagsPath":"/tags","count":1}')}}]);

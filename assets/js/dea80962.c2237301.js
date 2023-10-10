@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhwchiu=self.webpackChunkhwchiu||[]).push([[57001],{8546:e=>{e.exports=JSON.parse('{"label":"Serverless","permalink":"/tags/serverless","allTagsPath":"/tags","count":1}')}}]);

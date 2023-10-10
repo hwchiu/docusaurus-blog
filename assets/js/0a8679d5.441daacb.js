@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhwchiu=self.webpackChunkhwchiu||[]).push([[85199],{14344:a=>{a.exports=JSON.parse('{"label":"Food","permalink":"/tags/food","allTagsPath":"/tags","count":2}')}}]);

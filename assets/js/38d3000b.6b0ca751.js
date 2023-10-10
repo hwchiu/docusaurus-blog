@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhwchiu=self.webpackChunkhwchiu||[]).push([[12139],{71007:a=>{a.exports=JSON.parse('{"label":"Reading","permalink":"/tags/reading","allTagsPath":"/tags","count":87}')}}]);

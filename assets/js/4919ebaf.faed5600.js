@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhwchiu=self.webpackChunkhwchiu||[]).push([[87146],{74246:a=>{a.exports=JSON.parse('{"label":"CNI","permalink":"/tags/cni","allTagsPath":"/tags","count":1}')}}]);

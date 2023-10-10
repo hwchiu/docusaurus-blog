@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkhwchiu=self.webpackChunkhwchiu||[]).push([[71031],{88622:a=>{a.exports=JSON.parse('{"label":"OPA","permalink":"/tags/opa","allTagsPath":"/tags","count":2}')}}]);
