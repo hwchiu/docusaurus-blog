@@ -58,3 +58,19 @@ Linux Network 是所有維運與開發人員都不可避免的，而 Docker Cont
 # 大補包
 
 [51折購買多堂課程](https://hiskio.com/bundles/ZXwe2v9yv?s=tc)
+
+<script src="https://giscus.app/client.js"
+        data-repo="hwchiu/blog-comment"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkzNjc1NTIyODM="
+        data-category="General"
+        data-category-id="DIC_kwDOFehnG84CZ_ID"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-TW"
+        crossorigin="anonymous"
+        async>
+</script>

@@ -87,3 +87,19 @@ title: Markdown page example
 <a href="https://www.buymeacoffee.com/hwchiu">
 <img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" width="200" height="200"/>
 </a>
+
+<script src="https://giscus.app/client.js"
+        data-repo="hwchiu/blog-comment"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkzNjc1NTIyODM="
+        data-category="General"
+        data-category-id="DIC_kwDOFehnG84CZ_ID"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-TW"
+        crossorigin="anonymous"
+        async>
+</script>
