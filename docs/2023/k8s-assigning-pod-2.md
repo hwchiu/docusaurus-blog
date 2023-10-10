@@ -1,5 +1,4 @@
 ---
-slug: k8s-pod-affinity-2
 title: '解密 Assigning Pod To Nodes(下)'
 keywords: [Kubernetes, DevOps, PodAffinity]
 date: 2023-08-13 01:52:57
@@ -24,9 +23,9 @@ Inter-Pod Affinity 與 Anti-Affinity 讓使用者根據已在節點上運行的 
 
 舉例來說，我們可以有下列不同的分群結果
 
-![](https://hackmd.io/_uploads/BJ5XNkE33.png)
-![](https://hackmd.io/_uploads/BkD4V1Vhn.png)
-![](https://hackmd.io/_uploads/HykSNkNnh.png)
+![](./assets/BJ5XNkE33.png)
+![](./assets/BkD4V1Vhn.png)
+![](./assets/HykSNkNnh.png)
 
 分群的方式則是透過 Node 上的 label，透過 key/value 的形式將相同 value 的節點給歸類為同一群體，而 Key 的選擇則是透過 "topologyKey" 這個欄位來設定
 
@@ -196,15 +195,15 @@ spec:
 
 根據前述對稱性所描述的規則，若當下環境沒有任何符合規則的 Pod，則可以隨意部署，所以第一個 Pod 可以順利部署。
 
-![](https://hackmd.io/_uploads/HJVMwDEh3.png)
+![](./assets/HJVMwDEh3.png)
 
 第二個 Pod 部署的時候就會觀察到 Pod1 已經把左邊給佔據了，因此只剩下右邊該群可用
 
-![](https://hackmd.io/_uploads/Bk8bwwVnh.png)
+![](./assets/Bk8bwwVnh.png)
 
 第三個 Pod 部署的時候因為兩個群上面都已經有 Pod 正在運行，而環境中沒有任何其他符合條件的節點可以用，因此最終就會卡到 Pending.
 
-![](https://hackmd.io/_uploads/Byx8vPEn3.png)
+![](./assets/Byx8vPEn3.png)
 
 由結果可以觀察根據 `TopologyKey=kind.zone` 來分類，叢集中只能分到兩群，而第三個 Pod 則會因為 AntiAffinity + Required 的效果因此沒有辦法被部署，所以這種使用方法就要特別注意副本數量與分群數量，特別是當透過 HPA 來動態調整副本時更容易出錯。
 
@@ -212,7 +211,7 @@ spec:
 
 這時候得到的結果可能會是如下圖
 
-![](https://hackmd.io/_uploads/BJ1n2_4n2.png)
+![](./assets/BJ1n2_4n2.png)
 
 
 
@@ -273,10 +272,10 @@ spec:
 ```
 
 可以觀察到這時候 pod-affinity-4 這個服務卻卡 Pending 了
-![](https://hackmd.io/_uploads/rJrPpdN3n.png)
+![](./assets/rJrPpdN3n.png)
 
 透過 `kubectl describe` 可以看到原因為是因為不滿足當下運行 Pod 的 Anti-Affinity。
-![](https://hackmd.io/_uploads/r1OipdN22.png)
+![](./assets/r1OipdN22.png)
 
 這也是設計文件中所描述的對稱性，因此即使後續服務沒有特別撰寫 Anti-Affinity，其調度的過程中也會根據當下其他 Pod 的資訊來判別是否可以調度
 
@@ -314,7 +313,7 @@ spec:
 ```
 
 與 `Anti-Affinity` 不同，若當下找不到目標服務， `Affinity` 則會卡在 Pending 的狀況，沒有辦法部署。
-![](https://hackmd.io/_uploads/SkZ1JtEn2.png)
+![](./assets/SkZ1JtEn2.png)
 
 註: 若參考對象是自己則為特殊情況，不會有 Pending 的情況發生，否則會有 deadlock 的情形出現。
 
@@ -341,16 +340,16 @@ spec:
 ```
 
 部署下去後可以觀察到服務 A 與 B 幾乎同時順利完成調度的決策，一起被分配到相同的 kind.zone 內
-![](https://hackmd.io/_uploads/HkKllKE23.png)
+![](./assets/HkKllKE23.png)
 
 以過程中來說，最初的服務 A 因為找不到服務 B 可以匹配，所以全部卡 Pending 的狀況
-![](https://hackmd.io/_uploads/r1DebtNhh.png)
+![](./assets/r1DebtNhh.png)
 
 而服務 B 本身沒有描述任何 Affinity 的規則，因此本身順利被調度
-![](https://hackmd.io/_uploads/SJzbWt432.png)
+![](./assets/SJzbWt432.png)
 
 當服務 B 被調度到 kind.zone=zone1 後，所有卡住的服務 A 就有參照對象可以比較，所已全部 Pod 就直接部署上去了。
-![](https://hackmd.io/_uploads/HkJzWtVn3.png)
+![](./assets/HkJzWtVn3.png)
 
 
 # PodTopologySpread
@@ -370,7 +369,7 @@ skew = Pods number matched in current topology - min Pods matches in a topology
 
 以下圖為範例
 
-![](https://hackmd.io/_uploads/SkWAL7S33.png)
+![](./assets/SkWAL7S33.png)
 
 1. `topologyKey` 將節點分成三群
 2. 每個群上面目前運行的 Pod 數量分別為 `3,2,1`

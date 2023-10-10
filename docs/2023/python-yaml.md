@@ -1,5 +1,4 @@
 ---
-slug: python-ruamel
 title: 'ruamel.yaml 小筆記'
 keywords: [python, yaml]
 tags:

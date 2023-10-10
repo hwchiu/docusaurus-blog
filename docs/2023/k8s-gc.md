@@ -1,5 +1,4 @@
 ---
-slug: k8s-gc
 title: 讓你的 Container Image 逃脫 Kubelet Image GC 的魔掌
 keywords: [Kubernetes]
 date: 2023-10-07 23:57:25
@@ -267,5 +266,5 @@ $ sudo crictl inspecti docker.io/library/jenkins:2.60.2
 # Summary
 
 最後以一張圖來概括上述的流程
-![](https://hackmd.io/_uploads/ByrD0ekba.png)
+![](./assets/ByrD0ekba.png)
 

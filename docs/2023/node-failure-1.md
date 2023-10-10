@@ -1,5 +1,4 @@
 ---
-slug: k8s-node-fault-recovery
 title: 節點崩壞時如何快速處理 Pod
 keywords: [Kubernetes,Network,Linux,Ubuntu]
 date: 2023-08-27 22:28:22
@@ -105,7 +104,7 @@ func (kl *Kubelet) updateNodeStatus(ctx context.Context) error {
 ```
 
 下圖簡易的描述更新方式
-![](https://hackmd.io/_uploads/BkKis_Oah.png)
+![](./assets/BkKis_Oah.png)
 
 
 然而這種實作方式實務上卻帶來的效能上的瓶頸，每次 kubelet 資訊回報都伴隨大量的狀態資訊，每十秒一次且節點數量過多時，就會對整個 etcd 造成系統壓力使得整個叢集的效能降低，因此 1.13 版本後決定採用新的實作方式並且於 1.17 版本正式宣佈為 stable 版本。
@@ -269,7 +268,7 @@ spec:
 Lease 架構下透過此方式來更新節點的最新 heartbeat 狀態，至於 Controller 是如何利用這些資訊判斷節點是否為 Ready/NotReady 等等就會介紹。
 
 以下列圖來總結一下 Lease 架構下 Heartbeat 的更新方式
-![](https://hackmd.io/_uploads/Hk5wyCdp2.png)
+![](./assets/Hk5wyCdp2.png)
 
 
 ### Status
@@ -320,12 +319,12 @@ shouldPatchNodeStatus := changed || kl.clock.Since(kl.lastStatusReportTime) >= k
 藉由這種機制降低整個更新頻率，並降低頻繁更新造成的效能影響。
 
 將兩者結合起來的話，其示意圖如下
-![](https://hackmd.io/_uploads/Sk39kA_T2.png)
+![](./assets/Sk39kA_T2.png)
 
 
 以預設設定下，運作邏輯圖如下， Kubelet 如今產生兩條不同的路，一條負責 Status，一條負責 Heartbeat
 
-![](https://hackmd.io/_uploads/Sy_HtFYT3.png)
+![](./assets/Sy_HtFYT3.png)
 
 
 ## Controller Manager
@@ -408,10 +407,10 @@ status:
 
 所以將這些概念整合起來，可以得到下列的概念圖，Kubelet 本身與 Controller 是非同步工作，一個負責更新狀態，一個負責確認狀態並且更新
 
-![](https://hackmd.io/_uploads/SyLbzR_T2.png)
+![](./assets/SyLbzR_T2.png)
 
 而整個邏輯工作流程則可以用下圖來表達
-![](https://hackmd.io/_uploads/SJU-KKYan.png)
+![](./assets/SJU-KKYan.png)
 
 
 # Evict Pod

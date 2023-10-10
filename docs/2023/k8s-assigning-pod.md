@@ -1,5 +1,4 @@
 ---
-slug: k8s-pod-affinity-1
 title: '解密 Assigning Pod To Nodes(上)'
 keywords: [Kubernetes, DevOps, PodAffinity]
 date: 2023-08-05 04:06:15
@@ -30,7 +29,7 @@ description: 探討 Kubernetes 內如何控制 Pod 與節點的分配關係
 接下來所探討的實驗環境都會使用基於 [KIND 0.18.0](https://github.com/kubernetes-sigs/kind?WT.mc_id=AZ-MVP-5003331) 所產生的 K8s v1.26.0，該 K8s 叢集由一個控制節點加上四個工作節點組成。
 除了基本的 Label 外還額外設定了基於 Zone 的 Label 來模擬環境。
 
-![](https://hackmd.io/_uploads/B1ElQ3con.png)
+![](./assets/B1ElQ3con.png)
 
 
 
@@ -57,7 +56,7 @@ spec:
 
 以上述範例來部署， Pod 會直接被指定到 k8slab-worker 此節點，透過 `kubectl describe pod` 就不會看到任何跟 scheduler 有關的事件
 
-![](https://hackmd.io/_uploads/HkNWFVjs2.png)
+![](./assets/HkNWFVjs2.png)
 
 ```bash
 Events:
@@ -103,7 +102,7 @@ spec:
 
 以上述 10 個 Pod 為範例去部署，可以觀察到這 10 個 Pod 都會座落於 `kind.zone: zone1` 這個區間
 
-![](https://hackmd.io/_uploads/Skn-9Vjoh.png)
+![](./assets/Skn-9Vjoh.png)
 
 
 
@@ -258,7 +257,7 @@ spec:
 
 
 
-![](https://hackmd.io/_uploads/HyAffrsj3.png)
+![](./assets/HyAffrsj3.png)
 
 由於 nodeSelectorTerms 底下的結果是採取 OR 運算，因此下列 YAML 則透過 OR 的概念去比對多個結果，可以得到跟前述類似的部署結果。
 
@@ -429,7 +428,7 @@ spec:
 ```
 
 部署結果如下圖，大部分都座落於 worker3/worker4，與預期符合
-![](https://hackmd.io/_uploads/B1VN_Sso2.png)
+![](./assets/B1VN_Sso2.png)
 
 `Required` 跟 `Preferred` 兩者是可以互相疊加的，譬如可以透過下列 YAML 達成
 1. 服務只能部署到含有 `kind.zone: zone1` 的節點
@@ -472,7 +471,7 @@ spec:
                       - k8slab-worker2
 ```
 
-![](https://hackmd.io/_uploads/BybhYrosn.png)
+![](./assets/BybhYrosn.png)
 
 # Summary
 

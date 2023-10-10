@@ -1,5 +1,4 @@
 ---
-slug: kind-fun-facts
 title: 從 KIND 環境中學到的 DNS 小趣聞
 keywords: [Kubernetes, Network, Linux]
 date: 2023-08-20 13:43:12
@@ -21,18 +20,18 @@ Kubernetes 本身就是容器協作平台，因此透過 Docker 作為其節點�
 
 以 Docker 來說，必須要起三個 Docker Container 來模擬 Kubernetes 節點，
 這些 Container 彼此之間透過 Docker Network 來處理網路連接性的問題，整體架構類似如下圖
-![](https://hackmd.io/_uploads/rJYQgwC3h.png)
+![](./assets/rJYQgwC3h.png)
 環境中會部署三個 Container，所有 Container 本身都會有屬於 Docker Network 網段的 IP，同時上面都會有該 Contianer Image 內所包含的 Application 與 Library.
 
 而已 Kubernetes 來說，為了達成一個三節點的 Kubernetes，叢集內必須要有控制平面來提供如 etcd, scheduler, controller, api-server 等功能，而節點上則必須要安裝 kubelet 以及相關的 container runtime 來負責 container 的生命週期管理。
 其概念如下圖
-![](https://hackmd.io/_uploads/SkiXgPR33.png)
+![](./assets/SkiXgPR33.png)
 
 
 
 而 KIND 的環境就是將這兩者結合，因此實際上整體架構如下
 
-![](https://hackmd.io/_uploads/HyMEeDAh3.png)
+![](./assets/HyMEeDAh3.png)
 
 透過 Docker 所起的 Container 內會安裝 Containerd 來負責 K8s Container 的生命週期，同時也透過 kubelet 等與控制平面連線以形成 k8s 叢集。
 
@@ -46,7 +45,7 @@ Docker 實際上會於自己的系統中內嵌一個 DNS Server 來處理這個�
 2. 否則就依照 Host 上的設定，讓上游 DNS 伺服器來處理該 DNS 請求。
 
 下圖所示一個是運行兩個 Container 的範例，該範例中運行的 Container 分別為 hwchiu 以及 hwchiu2。
-![](https://hackmd.io/_uploads/HyemkOC32.png)
+![](./assets/HyemkOC32.png)
 
 可以看到透過 `nslookup` 可以輕易地解出對應的 IP 地址，同時也可以觀察到這些容器的 `/etc/hosts` 都被動態的改成指向 `127.0.0.11`，這意味容器內所有 DNS 請求都會預設的被導向 127.0.0.11，這個 Docker 內建的 DNS Server。
 
@@ -64,12 +63,12 @@ Docker DNS 的設計非常精巧，其利用 Linux namespace 的概念來完美�
 同時為了避免 DNS Server 會與使用者自己的 DNS 服務衝突，所以 Docker DNS 就不會使用 Port 53，而採取一個隨機的數字。
 
 整體架構如下圖
-![](https://hackmd.io/_uploads/S1Rs9zyah.png)
+![](./assets/S1Rs9zyah.png)
 
 但是對於 Container 服務來說，由於 `/etc/hosts` 已經被改為使用 `127.0.0.11` 當作預設的 DNS 搜尋，而且預設都會基於 Port 53 來使用，所以 Dockerd 這邊又仰賴 iptables 的幫助來動態調整規則，把所有送往 `127.0.0.11:53` 的封包都動態修改其目標 port 來處理連結問題。
 
 因此你若透過 nsenter 等指令進入到容器內觀察，使用 `ss` 與 `iptalbse` 的指令可以觀察到如下圖的結果
-![](https://hackmd.io/_uploads/HynKeX1p3.png)
+![](./assets/HynKeX1p3.png)
 
 其中 `ss` 顯示了環境中 `127.0.0.11` 有監聽兩個 Port，分別對應 TCP 與 UDP 的 DNS 請求，而 `iptables` 則顯示的相關 DNAT 的規則
 
@@ -103,7 +102,7 @@ Kubernetes 叢集中也有一個 DNS Server，從早期的 Kube-DNS 到現在的
 然而對於 CoreDNS 來說，所謂的上游 DNS 伺服器預設情況下就是節點所使用的 DNS 伺服器，也就是所謂的 `127.0.0.11`。
 
 因此整個流程如下
-![](https://hackmd.io/_uploads/ry0zmm162.png)
+![](./assets/ry0zmm162.png)
 
 假設 `worker2` 上的 Pod 想要詢問一個 DNS 請求，該請求輾轉送到了 CoreDNS 去處理，而 CoreDNS 無法解析的情況下，想要轉發給上游 DNS Server，因此就轉送給了 `127.0.0.11`，而這邊就是問題的發生所在。
 
@@ -116,18 +115,18 @@ Kubernetes 叢集中也有一個 DNS Server，從早期的 Kube-DNS 到現在的
 為了解決這個問題， KIND 的想法就是讓 CoreDNS 不要把封包送給 `127.0.0.11`，而是送往節點的 IP，並且透轉發最終送到節點上的 `127.0.0.11` 服務
 
 整個流程如下
-![](https://hackmd.io/_uploads/r1hzrXkT2.png)
+![](./assets/r1hzrXkT2.png)
 
 前述提到 CoreDNS 本身會使用節點上的 `/etc/hosts` 當作上游伺服器，因此這邊的做法就是動態修正節點上的 `/etc/hosts`，將預設 DNS 伺服器從 `127.0.0.11` 改成節點本身的 IP，以範例圖來說就是 `172.18.0.2`。
 
 一旦修改了預設請求位置，所有 `Dockerd` 所設立的 iptables 規則就沒有辦法使用，因此時候又要重新修改 `iptables` 來滿足。
 
 以下是一開始 Dockerd 所設定的 iptables 規則
-![](https://hackmd.io/_uploads/BJVe8mJah.png)
+![](./assets/BJVe8mJah.png)
 
 
 而 KIND 則會將其修改成如下(來自不同節點的範例，該節點 IP 是 **172.18.0.1**)
-![](https://hackmd.io/_uploads/rkBbIQ1pn.png)
+![](./assets/rkBbIQ1pn.png)
 
 可以看到這時候所有送往 `172.18.0.1` 的封包都會被轉向 `127.0.0.11:33501/41285`，也就是 Docker DNS 的位置，同時也針對 SNAT 的地方進行修改。
 

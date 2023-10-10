@@ -1,5 +1,4 @@
 ---
-slug: k8s-network-debug
 title: Kubernetes 網路除錯之旅
 keywords: [Kubernetes,Network]
 tags:

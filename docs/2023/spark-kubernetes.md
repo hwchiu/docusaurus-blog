@@ -1,5 +1,4 @@
 ---
-slug: spark-gcs-k8s
 title: Spark SQL, ThriftServer, GCS in Kubernetes.
 keywords: [Kubernetes,Network,Linux,Ubuntu]
 date: 2023-09-23 22:04:29
@@ -29,7 +28,7 @@ description: 紀錄如何於 K8s 上安裝 Spark SQL/ThriftServer 並且操作 G
 
 整個架構如下圖所述
 
-![](https://hackmd.io/_uploads/Bk5TEXjJ6.png)
+![](./assets/Bk5TEXjJ6.png)
 
 接下來就針對圖中每個元件記錄一下實際上的設定
 
@@ -428,7 +427,7 @@ gs://hungwei_spark_test/case1/part-00000-8a105d8b-f314-4763-ba5e-d82ff00506bf-c0
 
 透過相同的 port-forward 方式去存取 4040 port，就可觀察到 Spark UI
 
-![](https://hackmd.io/_uploads/rJUnkVnkp.png)
+![](./assets/rJUnkVnkp.png)
 
 
 ## Case 2

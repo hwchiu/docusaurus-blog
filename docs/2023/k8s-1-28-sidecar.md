@@ -1,5 +1,4 @@
 ---
-slug: k8s-sidecar
 title: 'Kubernetes 1.28 Sidecar Container 初體驗'
 author: hwchiu
 tags:
@@ -339,11 +338,11 @@ $ kubectl describe pods proxy-sidecar-5dd9ff76f8-qctk8
 當導入 sidecar container 的設定後，可以觀察到 Proxy 容器起後動過了一段時間才去抓取新的 Image，這是因為 sidecar container 會等到其 StartupProbe 結束後才開始往下去執行主要容器，透過這種機制就可以確保 sidecar container 會比主要容器更早運行。
 
 最後以這兩張圖來呈現一下案例二的流程，過往將所有容器都放到 containers 中來處理 sidecar container 的邏輯。
-![](https://hackmd.io/_uploads/H1NslhSxp.png)
+![](./assets/H1NslhSxp.png)
 
 而新版架構則將其設定搬移到 initContainer 中，並且是從 Kubernetes 內部來處理專屬的生命週期
 
-![](https://hackmd.io/_uploads/Sk3senHea.png)
+![](./assets/Sk3senHea.png)
 
 
 # Summary
