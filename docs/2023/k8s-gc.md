@@ -3,6 +3,7 @@ title: 讓你的 Container Image 逃脫 Kubelet Image GC 的魔掌
 keywords: [Kubernetes]
 date: 2023-10-07 23:57:25
 authors: hwchiu
+image: https://hackmd.io/_uploads/ByrD0ekba.png
 tags:
   - Kubernetes
   - Linux

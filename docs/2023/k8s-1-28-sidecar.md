@@ -1,6 +1,7 @@
 ---
 title: 'Kubernetes 1.28 Sidecar Container 初體驗'
 author: hwchiu
+image: https://hackmd.io/_uploads/Sk3senHea.png
 tags:
   - Kubernetes
 description: 嘗試看看 Kubernetes v1.28 的 sidecar 服務帶來的差異性

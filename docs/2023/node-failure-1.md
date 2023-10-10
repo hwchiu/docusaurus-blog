@@ -2,6 +2,7 @@
 title: 節點崩壞時如何快速處理 Pod
 keywords: [Kubernetes,Network,Linux,Ubuntu]
 date: 2023-08-27 22:28:22
+image: https://hackmd.io/_uploads/SJU-KKYan.png
 tags:
   - Kubernetes
   - DevOps

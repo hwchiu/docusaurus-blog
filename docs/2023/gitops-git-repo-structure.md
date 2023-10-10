@@ -3,7 +3,7 @@ slug: gitops-repo-structure
 title: GitOps 下的 Git Repo 架構探討
 keywords: [Kubernetes,GitOps,DevOps]
 date: 2023-09-05 01:03:21
-authors: hwchiu
+image: https://hackmd.io/_uploads/Hy1j0VfAn.png
 tags:
   - Kubernetes
   - DevOps

@@ -7,6 +7,7 @@ tags:
   - Spark
   - GCP
 description: 紀錄如何於 K8s 上安裝 Spark SQL/ThriftServer 並且操作 GCS 上的資料
+image: https://hackmd.io/_uploads/Bk5TEXjJ6.png
 ---
 
 

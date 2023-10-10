@@ -3,6 +3,7 @@ title: 從 KIND 環境中學到的 DNS 小趣聞
 keywords: [Kubernetes, Network, Linux]
 date: 2023-08-20 13:43:12
 authors: hwchiu
+image: https://hackmd.io/_uploads/rkBbIQ1pn.png
 tags:
   - Kubernetes
   - Network

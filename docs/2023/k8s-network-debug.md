@@ -6,6 +6,7 @@ tags:
   - Network
   - DevOps
 description: 淺談如何除錯 Kubernetes 中的各種網路問題
+image: https://i.imgur.com/4vCOL5P.png
 authors: hwchiu
 date: 2023-03-05 15:35:57
 ---
@@ -35,18 +36,18 @@ Kubernetes 是一個多節點的叢集系統，以叢集為基準去觀看封包
 
 下圖是一個用來描述南北向流量的簡易畫法
 
-![](https://i.imgur.com/0U11QvC.png)
+![](./assets/0U11QvC.png)
 
 這種圖只能單純描述封包的流量以及讓大家對於整個叢集封包流向有一點基本的概念，對於除錯整體是不夠的，因此若要針對網路問題除錯必須要能夠更細部的去描述整個參與到的元件，譬如下圖
 
-![](https://i.imgur.com/MPkqvsx.jpg)
+![](./assets/MPkqvsx.jpg)
 
 舉例來說，該 Kubernetes 叢集外部配置一個 Load-Balancer，而該 Load-Balancer 將封包打到節點上並且透過 Service(Node-Port) 的方式把封包打到目標 Pod.
 而目標 Pod 則是依賴 Routing Table 將封包都轉發到 NAT Gateway 讓 NAT GW 來處理 SNAT 並將封包給轉發到外部網路
 
 此外，下圖也是另外一種不同的底層實作
 
-![](https://i.imgur.com/4nydb8X.png)
+![](./assets/4nydb8X.png)
 
 Load-Balancer 與 Kubernetes Pod 天生就擁有共通的能力(AWS CNI, Azure CNI)
 ，這種情框下 Load-Balancer 就能夠直通 Pod 而不需要經過任何 Service(LB/NodePort) 來處理。
@@ -54,7 +55,7 @@ Load-Balancer 與 Kubernetes Pod 天生就擁有共通的能力(AWS CNI, Azure C
 
 第三種範例如下
 
-![](https://i.imgur.com/HctxXRo.png)
+![](./assets/HctxXRo.png)
 
 這種架構下可能的情況就是外部使用 L4 LoadBalancer 將流量全部導向 Kubernetes 內的 Ingress Controller，讓 Ingress 來處理 L7 層級的處理與轉發。
 同時環境架構中包含了 Internal/Public 兩種網路，節點會根據封包目的地搭配 Routing Table 來決定封包的走向。
@@ -76,11 +77,11 @@ Load-Balancer 與 Kubernetes Pod 天生就擁有共通的能力(AWS CNI, Azure C
 
 東西向來說，最簡單的就是 Pod to Pod 之間的存取
 
-![](https://i.imgur.com/6Sqxou4.png)
+![](./assets/6Sqxou4.png)
 
 然而大部分的應用程式為了搭配 Deployment 對 Pod 生命週期的管理，通常會使用 Service 來處理 Pod 的 IP 與存取，如下圖
 
-![](https://i.imgur.com/TH8cbFw.png)
+![](./assets/TH8cbFw.png)
 
 基於 K8s Service 的概念，所有送到 Service 的封包會依賴 Kube-proxy 的設定來處理負載平衡的抉擇(iptables, ipvs).
 
@@ -114,7 +115,7 @@ K8s 網路架構基本上我認為可以分成四個面向去探討，這四個�
 
 可能架構如下
 
-![](https://i.imgur.com/munPePk.png)
+![](./assets/munPePk.png)
 
 
 ## Kubernetes 內建網路功能
@@ -132,7 +133,7 @@ Kubernetes 只提供單純的介面，實作則是根據安裝哪套 Ingress Con
 針對 Pod 進行些許的防火牆規則，這部分也是單純的介面，實作都是由底層的 CNI 去完成。
 
 將上述的概念給整合到前述圖片後，可能的架構如下
-![](https://i.imgur.com/88hCder.jpg)
+![](./assets/88hCder.jpg)
 
 ## CNI
 
@@ -153,7 +154,7 @@ Contaienr Network Interface(CNI) 主要用來幫忙處理
 
 一切堆疊起來後的架構圖大致上如下
 
-![](https://i.imgur.com/JRlBmpi.jpg)
+![](./assets/JRlBmpi.jpg)
 
 
 ## 第三方解決方案整合
@@ -167,7 +168,7 @@ Contaienr Network Interface(CNI) 主要用來幫忙處理
 YAML 工程師可用，環境可通，功能可行，困擾就在於如何客製化，如何除錯，如何根據需求調整架構
 
 舉例來說，假設 Cluster Federation 建立後，有可能會變成如下
-![](https://i.imgur.com/PpgV90m.jpg)
+![](./assets/PpgV90m.jpg)
 
 
 # Kubernetes 的除錯思路
@@ -191,12 +192,12 @@ YAML 工程師可用，環境可通，功能可行，困擾就在於如何客製
 以下是一個 "我的 Pod 透過 Service 沒有辦法存取目標 Pod" 的範例
 
 簡單架構圖畫起來就會是
-![](https://i.imgur.com/4unDnS4.png)
+![](./assets/4unDnS4.png)
 
 
 但是這張圖只能基本描述封包流向，對於除錯還是有些許的地方不夠清楚，這時候如果可以將這張圖用更為技術的細節去展開，可以得到下列這張圖
 
-![](https://i.imgur.com/ldaPp7j.png)
+![](./assets/ldaPp7j.png)
 1. Pod 欲透過 Service DNS 存取服務
 2. Pod 內檢察系統的 /etc/resolve 找到 DNS 的 IP
 3. 該 DNS 實際上會是 CoreDNS 的 Cluster SerivceIP
@@ -249,7 +250,7 @@ Pod 本身是否能夠運行 tcpdump 取決於容器當初的 image，很多時�
 
 當可以錄製封包的時候，這時候又必須要將 CNI 與基本架構給整合進來，以 Calico 為範例
 
-![](https://i.imgur.com/4vCOL5P.png)
+![](./assets/4vCOL5P.png)
 
 節點之間透過 IP-IP 的 Tunneling 協定進行封包處理，因此這時候你如果錄製封包你看到的不會是單純的 IP 協定，而是 IP-IP 協定，因此若沒有這些網路知識與理解，你錄製封包也沒有辦法找到你要的資訊。
 

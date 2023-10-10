@@ -3,6 +3,7 @@ title: '解密 Assigning Pod To Nodes(上)'
 keywords: [Kubernetes, DevOps, PodAffinity]
 date: 2023-08-05 04:06:15
 authors: hwchiu
+image: https://hackmd.io/_uploads/BybhYrosn.png
 tags:
   - Kubernetes
   - DevOps
