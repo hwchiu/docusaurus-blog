@@ -19,7 +19,7 @@ description: 在管理 Kubernetes 集群方面，大部分的玩家及管理者�
 3. The Future
 
 
-本篇文章延續 [11個保護你 Kubernetes 集群的技巧與觀念(上)](https://www.hwchiu.com/k8s-security-11tips-i.html#more)
+本篇文章延續 [11個保護你 Kubernetes 集群的技巧與觀念(上)](https://www.hwchiu.com/docs/2018/k8s-security-11tips-i)
 
 繼續探討原文作者後半部分的概念
 

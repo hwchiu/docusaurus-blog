@@ -27,7 +27,7 @@ date: 2020-12-06 18:21:06
 
 本篇文章我們先來探討第一個問題，到底系統該怎麼選擇? 我們先來看看由 `CNCF End User Techonlogy Radar` 所發佈的 [CD 調查報告](https://radar.cncf.io/2020-06-continuous-delivery), 其中我們擷取一張重點圖片即可
 
-> 想看完整報告的解析版本可以參考[CNCF Continuous Delivery 使用者調查報告](https://www.hwchiu.com/cncf-tech-radar-cd.html)
+> 想看完整報告的解析版本可以參考[CNCF Continuous Delivery 使用者調查報告](https://www.hwchiu.com/docs/2020/cncf-tech-radar-cd)
 
 ![](https://i.imgur.com/5cY59sh.png)
 

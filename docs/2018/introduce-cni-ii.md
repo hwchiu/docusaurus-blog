@@ -14,14 +14,14 @@ description: Container Network Interface (CNI) as a Network Interface between th
 
 # Preface
 It's a series post about the Container Network Interface and you can find other posts below.
-[[Container Network Interface] Bridge Network In Docker](https://www.hwchiu.com/introduce-cni-i.html)
-[[Container Network Interface] Write a CNI Plugin By Golang](https://www.hwchiu.com/introduce-cni-iii.html)
+[[Container Network Interface] Bridge Network In Docker](https://www.hwchiu.com/docs/2018/introduce-cni-i)
+[[Container Network Interface] Write a CNI Plugin By Golang](https://www.hwchiu.com/docs/2018/introduce-cni-iii)
 
 
 In this post, I will try to introduce the concept of Container Network Interface (CNI), including why we need this, how it works and what does it do.
 
 If you have not familiar with what is `linux network namespace` and how `docker` handles the network for its containers.
-You should read the [[CNI] Bridge Network In Docker](https://www.hwchiu.com/introduce-cni-i.html#more) to learn those concepts and that will be helpful for this tutorial.
+You should read the [[CNI] Bridge Network In Docker](https://www.hwchiu.com/docs/2018/introduce-cni-i) to learn those concepts and that will be helpful for this tutorial.
 
 
 # Introduction

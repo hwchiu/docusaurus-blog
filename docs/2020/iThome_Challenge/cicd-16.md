@@ -93,7 +93,7 @@ GitOps 會希望有一個代理人(Controller)，這個代理人權責很重，�
 
 # 缺點
 
-當然每個技術都不可能完美無瑕沒有任何缺失，接下來將列舉一些別人於 GitOps 實戰中遇到的痛點以及一些領悟，由於內文過長，對於詳細內容有興趣以參閱 [GitOps 帶來的痛點與反思](https://www.hwchiu.com/gitops-bad-and-ugly.html) 內的分析與介紹。
+當然每個技術都不可能完美無瑕沒有任何缺失，接下來將列舉一些別人於 GitOps 實戰中遇到的痛點以及一些領悟，由於內文過長，對於詳細內容有興趣以參閱 [GitOps 帶來的痛點與反思](https://www.hwchiu.com/docs/2020/gitops-bad-and-ugly) 內的分析與介紹。
 
 以下列舉文章內的缺點
 

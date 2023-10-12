@@ -164,7 +164,7 @@ Helm 目前流通的版本有 Helm v2 以及 Helm v3，使用起來差別不會�
 3. 更新應用程式的策略， v3 使用的是三方比對來進行測試，將會使用 `過往狀態`, `當前運作狀態` 以及 `期望狀態` 來比對，最後產生更新後的內容
 4. OCI 的支援，這個是我覺得最有趣的功能，未來 Helm Chart 打包後的格式可以遵循 OCI (Open Contaianer Initiative) 的格式，這意味者我們未來將有機會使用 Container Registry 來存放 Helm Chart, 只需要一個伺服器就可以同時滿足 Container Image 以及 Helm Chart，如果有興趣的人可以嘗試使用 Harbor 這套 Contaienr Registry 的解決方案來體驗看看這個功能
 
-> 想要知道更多關於 OCI 的介紹，可以參考這篇[文章](https://www.hwchiu.com/container-design-i.html)
+> 想要知道更多關於 OCI 的介紹，可以參考這篇[文章](https://www.hwchiu.com/docs/2019/container-design-i)
 
 5. Helm 一些子指令的新增與移除
 

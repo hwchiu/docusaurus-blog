@@ -206,8 +206,7 @@ func getVFDeviceName(master string, vf int) (string, error) {
 # Summary
 最後用一個架構圖來描述 **SR-IOV** 使用後的可能架構
 ![](https://i.imgur.com/dV4RU1r.png)
-該圖節錄自[常見 CNI (Container Network Interface) Plugin 介紹
-](https://www.hwchiu.com/cni-compare.html)
+該圖節錄自[常見 CNI (Container Network Interface) Plugin 介紹](https://www.hwchiu.com/docs/2018/cni-compare)
 
 首先該 kubernetes cluster 會使用 **Multus** CNI 來提供動態管理解決方案，對於圖中示範的 **Pod** 都會使用三個 **CNI** 分別是呼叫一次 **flannel** 以及兩次 **SR-IOV**。
 

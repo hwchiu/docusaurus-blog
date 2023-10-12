@@ -14,7 +14,7 @@ date: 2020-10-13 20:25:39
 
 # 前言
 今天要分享的 CNCF Radar 是 2020/09 所公布的報告，該報告所瞄準的範圍是 Observability(可觀測性)。
-就如同前篇文章所述 [CNCF Continuous Delivery 使用者調查報告](https://www.hwchiu.com/cncf-tech-radar-cd.html)， CNCF 雷達主要是針對 CNCF 會員的使用經驗進行調查，根據這些經驗回饋來統計當前 CNCF 會員對於各項解決方案的推薦程度。
+就如同前篇文章所述 [CNCF Continuous Delivery 使用者調查報告](https://www.hwchiu.com/docs/2020/cncf-tech-radar-cd)， CNCF 雷達主要是針對 CNCF 會員的使用經驗進行調查，根據這些經驗回饋來統計當前 CNCF 會員對於各項解決方案的推薦程度。
 
 本篇文章翻譯自 [Observability, September 2020](https://radar.cncf.io/2020-09-observability)，並且加上個人心得
 

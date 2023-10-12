@@ -12,9 +12,9 @@ date: 2020-11-21 21:40:39
 # 前言
 本篇文章是 Docker 網路入門篇系列文最終篇，閱讀本文前要先有前面三篇文章的基本概念，因此還不夠熟悉的讀者可以再次閱讀前面三篇文章
 
-[Docker Network - 網路模型](https://www.hwchiu.com/docker-network-model.html)
-[Docker 網路入門篇(二) - Bridge 網路模型](https://www.hwchiu.com/docker-network-model-lab.html)
-[Docker 網路入門篇(三) - 網路存取分析](https://www.hwchiu.com/docker-network-model-snat.html)
+[Docker Network - 網路模型](https://www.hwchiu.com/docs/2020/docker-network-model)
+[Docker 網路入門篇(二) - Bridge 網路模型](https://www.hwchiu.com/docs/2020/docker-network-model-lab)
+[Docker 網路入門篇(三) - 網路存取分析](https://www.hwchiu.com/docs/2020/docker-network-model-snat)
 > 這系列的文章都會用比較使用者的角度來探討網路概念，比較不會去深度探討底層實作細節
 
 

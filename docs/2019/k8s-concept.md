@@ -157,15 +157,14 @@ kubernetes 在 Service/Ingress 中間自行實現了一個模組，大抵上稱�
 若對於 `CNI` 標準有興趣的可以參閱下列文章
 - [Containernetworking CNI github](https://github.com/containernetworking/cni
 )
-- [CNI 系列文章](https://www.hwchiu.com/tags/CNI/)
+- [CNI 系列文章](https://www.hwchiu.com/docs/tags/cni/)
 
 對於 `Kubernetes` 抽象層可以參閱下列文章了解其原理
-- [What is Service](https://www.hwchiu.com/kubernetes-service-i.html)
-- [How to Implement Kubernetes Service - ClusterIP
-](https://www.hwchiu.com/kubernetes-service-ii.html)
-- [How To Implement Kubernetes Service - NodePort](https://www.hwchiu.com/kubernetes-service-iii.html)
-- [How To Implement Kubernetes Service - SessionAffinity](https://www.hwchiu.com/kubernetes-service-iiii.html)
-- [Introduction to Kubernetes Ingress](https://www.hwchiu.com/ingress-1.html)
+- [What is Service](https://www.hwchiu.com/docs/2018/kubernetes-service-i)
+- [How to Implement Kubernetes Service - ClusterIP](https://www.hwchiu.com/docs/2018/kubernetes-service-ii)
+- [How To Implement Kubernetes Service - NodePort](https://www.hwchiu.com/docs/2018/kubernetes-service-iii)
+- [How To Implement Kubernetes Service - SessionAffinity](https://www.hwchiu.com/docs/2018/kubernetes-service-iiii)
+- [Introduction to Kubernetes Ingress](https://www.hwchiu.com/docs/2019/ingress-1)
 
 
 # Computing(運算)

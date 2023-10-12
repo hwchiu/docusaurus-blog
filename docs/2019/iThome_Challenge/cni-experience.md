@@ -74,7 +74,7 @@ description: 本文作為網路分享的最後一篇，針對各式各樣的 CNI
 
 
 此外，我先前也有寫過一篇文章介紹常見的 CNI 解決方案，有興趣的人可以閱讀一下掌握一下基本概念。
-[常見 CNI (Container Network Interface) Plugin 介紹](https://www.hwchiu.com/cni-compare.html)
+[常見 CNI (Container Network Interface) Plugin 介紹](https://www.hwchiu.com/docs/2018/cni-compare.html)
 
 
 ## 開發 CNI

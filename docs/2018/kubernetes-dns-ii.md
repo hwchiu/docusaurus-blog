@@ -22,7 +22,7 @@ description: 本文跟大家分享一個在實際部屬上遇到的問題，在�
 # 正文
 
 在前篇文章
-[[Kubernetes] DNS setting in your Pod](https://www.hwchiu.com/kubernetes-dns.html) 中已經詳細介紹了如何針對 `Pod` 去設定自己想要的 `DNS` 規則。
+[[Kubernetes] DNS setting in your Pod](https://www.hwchiu.com/docs/2018/kubernetes-dns) 中已經詳細介紹了如何針對 `Pod` 去設定自己想要的 `DNS` 規則。
 
 但是最近遇到一個有趣的狀況，當 `Pod` 內設定其 `dnsPolicy` 為 `Default` 時，則 `Pod` 內 `/etc/resolv.conf` 的數值卻會因為系統上面不同的設定而有不同的結果。
 

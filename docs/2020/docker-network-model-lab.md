@@ -11,8 +11,7 @@ date: 2020-10-31 21:20:22
 
 # 前言
 
-上篇文章 [Docker Network - 網路模型
-](https://www.hwchiu.com/docker-network-model.html) 中跟大家分享了 Docker 內幾種基本網路模型，從 None, Host, Bridge 到 Contianer 共享
+上篇文章 [Docker Network - 網路模型](https://www.hwchiu.com/docs/2020/docker-network-model) 中跟大家分享了 Docker 內幾種基本網路模型，從 None, Host, Bridge 到 Contianer 共享
 
 而今天這篇文章會繼續往下看，我們的最終目的是想要理解預設情況下，我們的 Container 是如何擁有對外網路存取能力的。
 

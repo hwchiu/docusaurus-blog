@@ -19,7 +19,7 @@ description: 在管理 Kubernetes 集群方面，大部分的玩家及管理者�
 每個部分除了文章內容的敘述外，其實也都補充了不少相關的資源與補充。
 所以接下來我會使用兩篇文章的方式來記錄這 11 個觀念/技巧並且加上我個人的看法
 
-本篇文章後續 [11個保護你 Kubernetes 集群的技巧與觀念(下)](https://www.hwchiu.com/k8s-security-11tips-ii.html#more)
+本篇文章後續 [11個保護你 Kubernetes 集群的技巧與觀念(下)](https://www.hwchiu.com/docs/2018/k8s-security-11tips-ii)
 
 
 ## The Control Plane

@@ -221,8 +221,7 @@ c04:51:10.666374 IP (tos 0x0, ttl 64, id 11336, offset 0, flags [DF], proto ICMP
 Flannel 預設使用 VXLAN 這種透過 UDP 封裝的方式來處理節點間的封包傳輸，整個架構大概如下
 ![](https://i.imgur.com/dqfVlGK.png)
 
-如果對於 Flannel 的封包傳輸有興趣的，可以參考我之前撰寫的分析文[CNI - Flannel - VXLAN 封包運作篇
-](https://www.hwchiu.com/cni-flannel-iii.html)，該文章中很仔細的介紹整個封包傳輸的過程。
+如果對於 Flannel 的封包傳輸有興趣的，可以參考我之前撰寫的分析文[CNI - Flannel - VXLAN 封包運作篇](https://www.hwchiu.com/docs/2019/cni-flannel-iii)，該文章中很仔細的介紹整個封包傳輸的過程。
 
 今天這篇文章我們不講太細，改用下列這種簡單的圖片來看架構
 ![](https://i.imgur.com/SboSvWB.png)

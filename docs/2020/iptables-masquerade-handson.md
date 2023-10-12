@@ -10,7 +10,7 @@ description: 本篇文章透過修改 MASQUERADE Kernel Module 原始碼的方�
 ---
 
 # Preface
-本篇文章銜接上篇 [Linux NAT Masquerade 研究(上)](https://www.hwchiu.com/iptables-masquerade.html)，透過不同的方式來觀察 **MASQUERADE** 的運作結果。
+本篇文章銜接上篇 [Linux NAT Masquerade 研究(上)](https://www.hwchiu.com/docs/2019/iptables-masquerade)，透過不同的方式來觀察 **MASQUERADE** 的運作結果。
 
 相較於上篇文章是透過觀察原始碼的方式來學習過程，本篇文章嘗試於直接修改相關程式碼的方式來觀察最後選擇的結果
 

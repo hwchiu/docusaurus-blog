@@ -25,7 +25,7 @@ description: 在前篇文章有跟大家分享過實際部屬上遇到的 DNS �
 # 正文
 
 在前篇文章
-[[Kubernetes] DNS Setting with Dockerd](https://www.hwchiu.com/kubernetes-dns-ii.html) 中已經詳細介紹了整個問題的流程以及觀察結果。
+[[Kubernetes] DNS Setting with Dockerd](https://www.hwchiu.com/docs/2018/kubernetes-dns-ii) 中已經詳細介紹了整個問題的流程以及觀察結果。
 
 再次重申一次結論
 `kubernetes` 會先嘗試使用節點上 `/etc/resolv.conf` 的資料，但是若發現 `/etc/resolv.conf` 是空的，這時候就會去依賴 `dockerd` 幫忙產生的 `/etc/resolv.conf`

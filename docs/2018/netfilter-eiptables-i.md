@@ -31,7 +31,7 @@ description: 本文是 iptables/ebtables 系列分享文的第一篇，會先著
 最後則會介紹一下 `ebtables` 的概念以及封包傳遞過程。
 
 相關系列文章
-- [[netfilter] Introduction to iptables](https://www.hwchiu.com/docs/2018netfilter-eiptables-ii)
+- [[netfilter] Introduction to iptables](https://www.hwchiu.com/docs/2018/netfilter-eiptables-ii)
 - [[netfilter] Dig Into Docker Bridge Network By iptables/ebtables](https://www.hwchiu.com/docs/2018/netfilter-eiptables-iii)
 
 

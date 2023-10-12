@@ -13,7 +13,7 @@ description: Kubernetes 本身提供了非常多好用且方便的資源，其�
 # Preface
 為了能夠讓使用者能夠更直接順利的存取到 `kubernetes` 眾多運行的 `Pods`, `kubernetes` 花了很大把的精力在網路架構與使用這方面，之前已經詳細介紹過 `Kubernetes Service` 的[用法以及原理](https://www.hwchiu.com/kubernetes-service-i.html)
 這篇要來跟大家介紹另外一個相輔相成且好用的概念，也就是所謂的 `Ingress`. 透過 `Ingress` 我們能夠提供一些更方便的伺服器存取，不論是基於 `URL` 的存取導向，亦或是簡化整個 `SSL` 憑證部署的方式
-都能夠簡單地完成。 為了能夠順利使用 `SSL` 憑證，我們也可以搭配 [Cert-Manager](https://www.hwchiu.com/cert-manager.html) 來進行憑證的處理，並且將其與 `Ingress` 給整合。
+都能夠簡單地完成。 為了能夠順利使用 `SSL` 憑證，我們也可以搭配 [Cert-Manager](https://www.hwchiu.com/docs/2018/cert-manager) 來進行憑證的處理，並且將其與 `Ingress` 給整合。
 
 本文主要會從 `Ingress` 的基本概念出發，介紹其基本架構並且從最常用的 `Ingress Nginx` 作為一個使用範例，來介紹實際上整個 `Kubernetes` 集群內是如何運作的
 

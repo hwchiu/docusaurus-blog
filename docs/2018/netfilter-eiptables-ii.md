@@ -27,7 +27,7 @@ description: 透過瞭解 iptables 規則的四大組成 Table/Chian/Match/Targe
 本文延續前一篇 `ebtables` 的介紹，將使用相同的概念來闡述 `iptables(ipv4)` 的概念，包含了 `Tarble/Chain/Match/Target` 等功能。
 
 相關系列文章
-- [[netfilter] Introduction to iptables](https://www.hwchiu.com/docs/2018netfilter-eiptables-i)
+- [[netfilter] Introduction to iptables](https://www.hwchiu.com/docs/2018/netfilter-eiptables-i)
 - [[netfilter] Dig Into Docker Bridge Network By iptables/ebtables](https://www.hwchiu.com/docs/2018/netfilter-eiptables-iii)
 
 

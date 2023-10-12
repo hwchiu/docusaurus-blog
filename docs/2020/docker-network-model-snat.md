@@ -12,8 +12,8 @@ date: 2020-11-07 13:25:21
 # 前言
 本篇文章是 Docker 網路入門篇系列文第三篇，閱讀本文前要先有前面兩篇文章的基本概念，因此還不夠熟悉的讀者可以再次閱讀前面兩篇文章
 
-[Docker Network - 網路模型](https://www.hwchiu.com/docker-network-model.html)
-[Docker 網路入門篇(二) - Bridge 網路模型](https://www.hwchiu.com/docker-network-model-lab.html)
+[Docker Network - 網路模型](https://www.hwchiu.com/docs/2020/docker-network-model)
+[Docker 網路入門篇(二) - Bridge 網路模型](https://www.hwchiu.com/docs/2020/docker-network-model-lab)
 
 > 這系列的文章都會用比較使用者的角度來探討網路概念，比較不會去深度探討底層實作細節
 
@@ -307,7 +307,7 @@ tcpdump: listening on eth0, link-type EN10MB (Ethernet), capture size 262144 byt
 為了達成這個目的，我們要透過 **iptables** 的規則來幫我們做，而 **iptables** 有多種用法可以滿足這個需求，我們決定採用最簡單的也是最常用的方式, **MASQUERADE**，這種動態 SNAT 的功能來處理
 
 > 工商我的其他文章，從 Linux Kernel Source Code 來探討這個行為，不適合初學者看 [Linux NAT Masquerade 研究(上)
-](https://www.hwchiu.com/iptables-masquerade.html)
+](https://www.hwchiu.com/docs/2019/iptables-masquerade)
 
 
 我們使用下列規則，告訴 **iptables** 說，以後你只要看到 **10.55.66.2/32** 的封包，而且要從宿主機上面的 **eth0** 送出去的，請你順便幫忙修改封包來源，改成自己

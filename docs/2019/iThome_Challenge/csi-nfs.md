@@ -17,8 +17,7 @@ description: 前述分享了關於不少 Container Storage Interface 的事情�
 
 # NFS
 
-先前我有寫過一篇關於 **NFS** 各種用法的文章，有興趣的人可以前往閱讀 [NFS 於 Kubernetes 內的各種應用
-](https://www.hwchiu.com/kubernetes-storage-ii.html)
+先前我有寫過一篇關於 **NFS** 各種用法的文章，有興趣的人可以前往閱讀 [NFS 於 Kubernetes 內的各種應用](https://www.hwchiu.com/docs/2018/kubernetes-storage-ii)
 在該篇文章裡面我描述了兩種 **NFS** 的用法，第一種就是最基本的架設一個 **NFS** 服務器，接者將其分享出來的空間直接掛載到欲使用的 **Pod**，這種情況下就是 **NFS**服務器上面有什麼樣的資源與檔案，則 **Pod** 裡面看到的也就是相同的資源。這種用法也是最常見的使用方法。
 
 而第二種方法則是希望採用 **StorageClass** 的方式來使用 **NFS** 伺服器，這種情況下就是 **NFS**服務器本身也是會分享一個空間，但是每次透過 **StorageClass** 以及 **PVC** 綁定的情況下，會在 **NFS** 分享的資料夾內在創建一個資料夾，專屬給該 **PVC** 去使用，使用起來的感覺就像是動態分割空間一樣，這部分過去是仰賴額外的 **NFS Provisioner** 來實現。

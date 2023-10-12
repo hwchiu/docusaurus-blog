@@ -16,8 +16,8 @@ description: The most import feature of the container is the resource isolation,
 # Preface
 
 It's a series post about the Container Network Interface and you can find other posts below.
-[[Container Network Interface] CNI Introduction ](https://www.hwchiu.com/introduce-cni-ii.html)
-[[Container Network Interface] Write a CNI Plugin By Golang](https://www.hwchiu.com/introduce-cni-iii.html)
+[[Container Network Interface] CNI Introduction ](https://www.hwchiu.com/docs/2018/introduce-cni-ii)
+[[Container Network Interface] Write a CNI Plugin By Golang](https://www.hwchiu.com/docs/2018/introduce-cni-iii)
 
 If you have any experience about setuping a kubernetes cluster before, you must notice that you need to choose one CNI in your kubernetes cluster, and there're many candidate that you can choose, including the `flannel`, `weave`, `calico` and so on.
 

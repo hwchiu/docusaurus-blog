@@ -19,8 +19,8 @@ description: As we know, the kubernetes use the CNI to provide the network conne
 # Preface
 
 It's a series post about the Container Network Interface and you can find other posts below.
-[[Container Network Interface] Bridge Network In Docker](https://www.hwchiu.com/introduce-cni-i.html)
-[[Container Network Interface] CNI Introduction ](https://www.hwchiu.com/introduce-cni-ii.html)
+[[Container Network Interface] Bridge Network In Docker](https://www.hwchiu.com/docs/2018/introduce-cni-i)
+[[Container Network Interface] CNI Introduction ](https://www.hwchiu.com/docs/2018/introduce-cni-ii)
 
 In this post, I will show how to write your own CNI program.
 
