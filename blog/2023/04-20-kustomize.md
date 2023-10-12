@@ -1,7 +1,7 @@
 ---
 
 title: kustomize + helm
-author: hwchiu
+authors: hwchiu
 tags:
   - kustomize
   - ArgoCD

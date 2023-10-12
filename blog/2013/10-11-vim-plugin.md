@@ -2,7 +2,7 @@
 layout: post
 title: Vim & Nerdtree
 date: '2013-10-11 07:48'
-author: hwchiu
+authors: hwchiu
 tags:
   - Vim
   - System

@@ -1,7 +1,7 @@
 ---
 title: 'LeetCode - 314'
 date: '2017-03-01 05:04'
-author: hwchiu
+authors: hwchiu
 tags:
   - coding
 ---

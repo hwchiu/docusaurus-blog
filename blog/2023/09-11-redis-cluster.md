@@ -1,6 +1,6 @@
 ---
 title: k8s 內安裝 redis-cluster
-author: hwchiu
+authors: hwchiu
 tags:
   - Redis
   - Kubernetes

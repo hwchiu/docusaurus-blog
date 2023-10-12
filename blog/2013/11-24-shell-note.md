@@ -1,7 +1,7 @@
 ---
 title: Shell Script 筆記
 date: '2013-11-24 12:39'
-author: hwchiu
+authors: hwchiu
 tags:
   - System
   - Tool

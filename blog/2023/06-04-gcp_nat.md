@@ -1,6 +1,6 @@
 ---
 title: GCP NAT 相關筆記
-author: hwchiu
+authors: hwchiu
 tags:
   - GCP
   - Network

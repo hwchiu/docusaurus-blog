@@ -1,6 +1,6 @@
 ---
 title: 透過 GCP IAP Gateway 來保護 GKE 內的網站
-author: hwchiu
+authors: hwchiu
 tags:
   - GCP
 ---

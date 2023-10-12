@@ -1,7 +1,7 @@
 ---
 title: Python-translate
 date: '2013-06-13 21:30'
-author: hwchiu
+authors: hwchiu
 tags:
   - Python
 ---

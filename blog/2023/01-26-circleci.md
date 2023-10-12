@@ -1,6 +1,6 @@
 ---
 title: CircleCI Context 的使用
-author: hwchiu
+authors: hwchiu
 tags:
   - CirclecCI
   - DevOps

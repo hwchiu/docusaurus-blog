@@ -1,7 +1,7 @@
 ---
 
 title: 觀測 K8s 內 OOM 事件
-author: hwchiu
+authors: hwchiu
 tags:
   - Kubernetes
   - O11y

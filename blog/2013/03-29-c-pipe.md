@@ -2,7 +2,7 @@
 layout: post
 title: Linux下 pipe介紹
 date: '2013-03-29 15:05'
-author: hwchiu
+authors: hwchiu
 tags:
   - C
   - System

@@ -1,6 +1,6 @@
 ---
 title: gcloud 切換帳號
-author: hwchiu
+authors: hwchiu
 tags:
   - GCP
 ---

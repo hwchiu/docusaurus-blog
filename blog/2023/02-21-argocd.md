@@ -1,6 +1,6 @@
 ---
 title: 'ArgoCD 安裝筆記'
-author: hwchiu
+authors: hwchiu
 tags:
   - GitOps
   - ArgoCD

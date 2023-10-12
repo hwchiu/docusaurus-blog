@@ -1,6 +1,6 @@
 ---
 title: gcloud ssh 到 GCP VM
-author: hwchiu
+authors: hwchiu
 tags:
   - GCP
 ---

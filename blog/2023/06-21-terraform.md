@@ -1,6 +1,6 @@
 --
 title: terraform 小筆記
-author: hwchiu
+authors: hwchiu
 tags:
   - terraform
 --

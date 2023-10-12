@@ -1,6 +1,6 @@
 ---
 title: curl with fewer malloc
-author: hwchiu
+authors: hwchiu
 tags:
   - System
   - Tool

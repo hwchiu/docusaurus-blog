@@ -1,6 +1,6 @@
 ---
 title: CloudSQL 收費注意事項
-author: hwchiu
+authors: hwchiu
 tags:
   - GCP
   - SQL

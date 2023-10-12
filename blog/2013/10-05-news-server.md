@@ -1,7 +1,7 @@
 ---
 title: Install News server on FreeBSD 9.1R
 date: '2013-10-05 09:02'
-author: hwchiu
+authors: hwchiu
 tags:
   - System
   - FreeBSD

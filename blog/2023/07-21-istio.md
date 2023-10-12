@@ -1,7 +1,7 @@
 ---
 
 title: istio 操作記錄
-author: hwchiu
+authors: hwchiu
 tags:
   - ServiceMesh
   - Network
