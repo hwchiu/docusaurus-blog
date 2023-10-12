@@ -13,7 +13,7 @@ description: 本文是 iptables/ebtables 系列分享文的第一篇，會先著
 ## Preface
 
 再之前的 `kubernetes server` 系列文中有稍微介紹過 `iptables` 的一些用法，以及如何透過 `iptables` 來完成 `kubernetes service`. 若有任何不熟悉的概念可以重新閱讀一次該系列文章.
-- [[Kubernetes] How To Implement Kubernetes Service - ClusterIP](https://www.hwchiu.com/kubernetes-service-ii.html)
+- [[Kubernetes] How To Implement Kubernetes Service - ClusterIP](https://www.hwchiu.com/docs/2018/kubernetes-service-ii)
 
 
 回到主題，這次想要跟大家慢慢介紹的就是 `iptables` 這個常見也常用的工具。
@@ -31,8 +31,8 @@ description: 本文是 iptables/ebtables 系列分享文的第一篇，會先著
 最後則會介紹一下 `ebtables` 的概念以及封包傳遞過程。
 
 相關系列文章
-- [[netfilter] Introduction to iptables](https://www.hwchiu.com/netfilter-eiptables-ii.html)
-- [[netfilter] Dig Into Docker Bridge Network By iptables/ebtables](https://www.hwchiu.com/netfilter-eiptables-iii.html)
+- [[netfilter] Introduction to iptables](https://www.hwchiu.com/docs/2018netfilter-eiptables-ii)
+- [[netfilter] Dig Into Docker Bridge Network By iptables/ebtables](https://www.hwchiu.com/docs/2018/netfilter-eiptables-iii)
 
 
 ## Introduction

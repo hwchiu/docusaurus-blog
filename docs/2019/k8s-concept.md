@@ -59,7 +59,7 @@ NetApp, Nutanix, 家用/企業 NAS 等眾多廠商專注於儲存解決方案的
 `CSI` 本身作為 `Kubernetes` 與 `Storage Solution` 的中介層。
 `Kubernetes` 這邊專注於本身的元件，`PV/PVC/StorageClass` 這些元件作為中介層，往上銜接 `Pod`　等實際應用情形，往下則透過 `CSI` 與各式各樣的 `Storage Solution Provider` 銜接.
 
-詳細的用法跟概念可以參閱 [Kubernetes Storage 101](https://www.hwchiu.com/kubernetes-storage-i.html)
+詳細的用法跟概念可以參閱 [Kubernetes Storage 101](https://www.hwchiu.com/docs/2018/kubernetes-storage-i)
 
 若想了解更多 `CSI` 的設計原理跟組成，可以直接參閱可以參閱 [官方 Github Container-Storage-Interface](https://github.com/kubernetes/community/blob/master/contributors/design-proposals/storage/container-storage-interface.md)
 

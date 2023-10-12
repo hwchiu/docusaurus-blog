@@ -15,9 +15,9 @@ description: DNS 在傳統的網路架構中一直扮演很重要的角色，可
 此系列文會從使用者的用法到一些問題的發掘，最後透過閱讀程式碼的方式去分析這些問題
 
 相關的文章連結如下
-- [[Kubernetes] DNS Setting with Dockerd](https://www.hwchiu.com/kubernetes-dns-ii.html)
-- [[Kubernetes] DNS Setting with Dockerd(原始碼分析上)](https://www.hwchiu.com/kubernetes-dns-iii.html)
-- [[Kubernetes] DNS Setting with Dockerd(原始碼分析下)](https://www.hwchiu.com/kubernetes-dns-iiii.html)
+- [[Kubernetes] DNS Setting with Dockerd](https://www.hwchiu.com/docs/2018/kubernetes-dns-ii)
+- [[Kubernetes] DNS Setting with Dockerd(原始碼分析上)](https://www.hwchiu.com/docs/2018/kubernetes-dns-iii)
+- [[Kubernetes] DNS Setting with Dockerd(原始碼分析下)](https://www.hwchiu.com/docs/2018/kubernetes-dns-iiii)
 
 在`Kubernetes` 裡面看到 `DNS` 這個字眼，實際上可以想到非常多相關的元件與功能，
 譬如用來提供 `kubernetes` 集群內服務的 `kube-DNS`, 或是透過 `kubernetes service` 產生之獨一無二的 FQDN 名稱，最後就是本篇文章想要分享的一個元件， `Pod` 內的 `DNS` 設定。

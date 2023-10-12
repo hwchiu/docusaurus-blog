@@ -99,11 +99,11 @@ azureuser@aks-agentpool-15026905-1:~$ sudo cat /etc/cni/net.d/10-azure.conflist
 而本文主要探討的 `Azure-Vnet CNI` 主要負責的部分就是 **4** 所描述的工作，為 `Pause Container` 提供網路能力。
 
 此外對於 CNI 這個議題有興趣的人可以參閱下列系列文章來學習更多 CNI 相關的資訊
-1. [常見 CNI (Container Network Interface) Plugin 介紹](https://www.hwchiu.com/cni-compare.html)
-2. [[Container Network Interface] CNI Introduction](https://www.hwchiu.com/introduce-cni-ii.html)
-3. [[Container Network Interface] Bridge Network In Docker](https://www.hwchiu.com/introduce-cni-i.html)
-4. [[Container Network Interface] Write a CNI Plugin By Golang](https://www.hwchiu.com/introduce-cni-iii.html)
-5. [CNI 常見問題整理]((https://www.hwchiu.com/cni-questions.html)
+1. [常見 CNI (Container Network Interface) Plugin 介紹](https://www.hwchiu.com/docs/2018/cni-compare)
+2. [[Container Network Interface] CNI Introduction](https://www.hwchiu.com/docs/2018/introduce-cni-ii)
+3. [[Container Network Interface] Bridge Network In Docker](https://www.hwchiu.com/docs/2018/introduce-cni-i)
+4. [[Container Network Interface] Write a CNI Plugin By Golang](https://www.hwchiu.com/docs/2018/introduce-cni-iii)
+5. [CNI 常見問題整理]((https://www.hwchiu.com/docs/2018/cni-questions)
 
 ## Azure-VNET
 `Azure-VNET CNI` 的詳細原始碼都在 [Github-Azure-Container-Networking](https://github.com/Azure/azure-container-networking/tree/master/cni), 有興趣的讀者可以自行閱讀來學習。

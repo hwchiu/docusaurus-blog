@@ -15,10 +15,10 @@ date: 2020-04-06 00:03:29
 
 # Preface
 本篇文章作為系列文章的第三篇，該系列文希望能夠從概念到實作，從簡單到複雜來探討 IPVS (IP Virtual Server) 的概念，目前規劃的主題包含：
-- [IPVS 的基本使用與概念](https://www.hwchiu.com/ipvs-1.html)
-- [IPVS 與 Kubernetes 的整合](https://www.hwchiu.com/ipvs-2.html)
-- [IPVS 除錯方式與基本 Kernel Module 概念](https://www.hwchiu.com/ipvs-3.html)
-- [IPVS Kernel 架構實現](https://www.hwchiu.com/ipvs-4.html)
+- [IPVS 的基本使用與概念](https://www.hwchiu.com/docs/2020/ipvs-1)
+- [IPVS 與 Kubernetes 的整合](https://www.hwchiu.com/docs/2020/ipvs-2)
+- [IPVS 除錯方式與基本 Kernel Module 概念](https://www.hwchiu.com/docs/2020/ipvs-3)
+- [IPVS Kernel 架構實現](https://www.hwchiu.com/docs/2020/ipvs-4)
 
 本文主要是從 Linux Kernel 出發，介紹一下對於 **IPVS** 這個模組的概念，同時也介紹了預設的兩種除錯方式。
 

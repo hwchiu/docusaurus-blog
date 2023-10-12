@@ -12,7 +12,7 @@ description: 探討 Kubernetes 內如何控制 Pod 與節點的分配關係
 
 本篇文章要來探討 Kubernetes 中有哪些方式可以用來影響 Pod 與 Node 之間的分配關係。
 
-對環境與前述章節不熟的請先前往閱讀前篇文章 [解密 Assigning Pod To Nodes(上)](https://www.hwchiu.com/k8s-assigning-pod.html)
+對環境與前述章節不熟的請先前往閱讀前篇文章 [解密 Assigning Pod To Nodes(上)](https://www.hwchiu.com/docs/2023/k8s-assigning-pod.html)
 
 # Inter-Pod (Anti)Affinity
 

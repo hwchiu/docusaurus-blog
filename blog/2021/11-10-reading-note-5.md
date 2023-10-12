@@ -10,7 +10,7 @@ description: 「Kubernetes CNI 效能比較」
 ---
 
 # Kubernetes CNI 效能比較
-連結: https://www.hwchiu.com/cni-performance-2020.html
+連結: https://www.hwchiu.com/docs/2020/cni-performance-2020
 
 1. Kube-OVN 不但資源吃很多，效能還很不好
 2. Canal/Calico/Flannel 三者的運算資源使用量都不多，且效能都很好

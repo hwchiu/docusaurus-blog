@@ -85,7 +85,7 @@ kubectl -n kube-system describe ds kube-proxy 指令觀察一下相關的內容
 # Kubernetes Service
 在我們開始前，我們要先定義幾個相關的名詞，方便之後閱讀的時候可以順利的理解前後文的關係與概念。
 
-這邊先借用 [[Kubernetes] What is Service](https://www.hwchiu.com/kubernetes-service-i.htmlvvv) 內最後展示範例使用的概念圖
+這邊先借用 [[Kubernetes] What is Service](https://www.hwchiu.com/docs/2018/kubernetes-service-i) 內最後展示範例使用的概念圖
 ![Imgur](https://i.imgur.com/osNqxlw.png)
 
 

@@ -27,12 +27,12 @@ description: 透過瞭解 iptables 規則的四大組成 Table/Chian/Match/Targe
 本文延續前一篇 `ebtables` 的介紹，將使用相同的概念來闡述 `iptables(ipv4)` 的概念，包含了 `Tarble/Chain/Match/Target` 等功能。
 
 相關系列文章
-- [[netfilter] Introduction to ebtables](https://www.hwchiu.com/netfilter-eiptables-i.html)
-- [[netfilter] Dig Into Docker Bridge Network By iptables/ebtables](https://www.hwchiu.com/netfilter-eiptables-iii.html)
+- [[netfilter] Introduction to iptables](https://www.hwchiu.com/docs/2018netfilter-eiptables-i)
+- [[netfilter] Dig Into Docker Bridge Network By iptables/ebtables](https://www.hwchiu.com/docs/2018/netfilter-eiptables-iii)
 
 
 ## Introduction
-為了能夠更充分理解本文所描式的各個觀念，強烈建議先閱讀[前篇文章](https://www.hwchiu.com/netfilter-eiptables-i.html) 來理解整個規則裡面的四大部分，`Table/Chain/Match/Target`
+為了能夠更充分理解本文所描式的各個觀念，強烈建議先閱讀[前篇文章](https://www.hwchiu.com/docs/2018/netfilter-eiptables-i) 來理解整個規則裡面的四大部分，`Table/Chain/Match/Target`
 
 這邊再次做個快速的複習
 - Table: 相同用途的 `rules` 會放在相同的 `Table` 中，常見的有用來當防火牆的 `filter`，或是修改封包內容的 `nat`.

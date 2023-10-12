@@ -18,18 +18,18 @@ description: 本篇文章紀錄了作者這陣子以來與大家討論 CNI 時�
 # Questions
 ## 什麼是 CNI
 1. 簡單的說，就是可以讓你的 `Container` 上網的一種方法，其中包括了讓你的 `Container` 能夠有對外存取的方法，IP 的設定甚至到 `Container` 內部關於 `DNS` 伺服器的設定都可以
-2. 複雜的答案參考 [[Container Network Interface] CNI Introduction](https://www.hwchiu.com/introduce-cni-ii.html) 這篇文章，有比較詳細的介紹 `Container Network Interface(CNI)` 的概念
+2. 複雜的答案參考 [[Container Network Interface] CNI Introduction](https://www.hwchiu.com/docs/2018/introduce-cni-ii) 這篇文章，有比較詳細的介紹 `Container Network Interface(CNI)` 的概念
 
 ## 我現在使用 kubernetes, 到底要選擇哪個 CNI
 1. 這個問題非常容易聽到，但是基本上沒有辦法回答，因為網路的架構太過於複雜且龐大，沒有明確的需求之前沒有辦法得到一個較好的答案。
 2. 如果你只是想要 `Pod` 之間可以正常連線，沒有其他的考量的話，就選擇 `Flannel` 吧。
 3. 有其他網路使用相關的需求，甚至是 `Network Policy` 的話，就要在尋求其他的 CNI 解決方案
-4. 可以參閱[常見 CNI (Container Network Interface) Plugin 介紹](https://www.hwchiu.com/cni-compare.html)
+4. 可以參閱[常見 CNI (Container Network Interface) Plugin 介紹](https://www.hwchiu.com/docs/2018/cni-compare)
 
 
 ## 聽說 CNI 可以設定 DNS, 那為什麼我在 kubernetes 環境中這些設定都沒有被採用
 1. CNI 的確有提供 DNS 的選項，但是會不會採用要依賴使用該 `CNI` 的管理系統的決策，對於 `Kubernetes` 來說, 因為已經可以透過 `Pod` 的設定檔來處理相關的 `DNS` 設定了，所以 `CNI` 本身回傳的 `DNS` 設定就忽略掉，並不會採用。
-2. 可以參考這篇文章學習如何透過 DNSPolicy 來個別設定 Pod 裡面的 DNS欄位, [DNS setting in your Pod](https://www.hwchiu.com/kubernetes-dns.html)
+2. 可以參考這篇文章學習如何透過 DNSPolicy 來個別設定 Pod 裡面的 DNS欄位, [DNS setting in your Pod](https://www.hwchiu.com/docs/2018/kubernetes-dns)
 3. 相關的 `Gihub` 討論可以參考這篇 [Unable to add custom DNS to container using flannel plugin](https://github.com/containernetworking/plugins/issues/128)
 
 ## 我有沒有辦法透過 CNI 去更彈性的設定 `Pod` 的 IP 地址
@@ -97,7 +97,7 @@ drwxr-xr-x 3 root root 4096 Oct  6 13:52 ../
 ## 我好想寫程式呀！ 有沒有辦法自己撰寫 CNI
 1. CNI 本身其實滿容易撰寫的，只要瞭解其基本概念並且知道自己想要做什麼就差不多可以完成了
 2. CNI 本身沒有限定任何語言實現，只要可以提供一個 `Binary` 執行檔即可
-3. 如果對於用 `Golang` 撰寫一個簡單的 `Bridge CNI` 可以參考下列文章 [[Container Network Interface] Implement Your CNI In Golang](https://www.hwchiu.com/introduce-cni-iii.html)
+3. 如果對於用 `Golang` 撰寫一個簡單的 `Bridge CNI` 可以參考下列文章 [[Container Network Interface] Implement Your CNI In Golang](https://www.hwchiu.com/docs/2018/introduce-cni-iii)
 
 # Summary
 `Container Network Interface(CNI)` 本身概念不難，困難的其實都是網路本身，封包怎麼傳輸，不同節點之間怎麼路由，Overlay Network怎麼做，`Network Policy` 怎麼實現等諸多的網路問題實際上才是最令人頭疼的地方。

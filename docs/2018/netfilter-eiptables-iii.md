@@ -28,8 +28,8 @@ description: 本文透過對 iptables/ebtables 來設定相對應的規則，藉
 本文延續前一篇 `ebtables` 的介紹，將使用相同的概念來闡述 `iptables(ipv4)` 的概念，包含了 `Tarble/Chain/Match/Target` 等功能。
 
 相關系列文章
-- [[netfilter] Introduction to ebtables](https://www.hwchiu.com/netfilter-eiptables-i.html)
-- [[netfilter] Introduction to iptables](https://www.hwchiu.com/netfilter-eiptables-ii.html)
+- [[netfilter] Introduction to ebtables](https://www.hwchiu.com/docs/2018/netfilter-eiptables-i)
+- [[netfilter] Introduction to iptables](https://www.hwchiu.com/docs/2018/netfilter-eiptables-ii)
 
 ## Introduction
 本文是結合前述兩篇理論文章後的實戰文，要透過對 `iptables/ebtables` 的操作來實際觀察封包於不同的情境之中傳輸實際上會經過哪些 `iptables/ebtables` 的控管。

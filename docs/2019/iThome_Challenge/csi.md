@@ -47,7 +47,7 @@ description: 本文開始又是嶄新的一篇，開始探討也是非常重要�
 
 然而上述的資源調度有時候又太過於靜態，缺乏彈性，因此後來又衍生出 **StorageClass** 這種動態請求的資源，對於使用者來說可以減少更多設定，整體使用起來會更加順手。
 
-關於上述三種資源的彼此關係，概念，可以參考這篇文章 [kubernetes storage](https://www.hwchiu.com/kubernetes-storage-i.html)
+關於上述三種資源的彼此關係，概念，可以參考這篇文章 [kubernetes storage](https://www.hwchiu.com/docs/2018/kubernetes-storage-i)
 
 除了這三個類別資源外，其實還有兩個常用的資源也與儲存息息相關，**ConfigMap** 以及 **Secret**， 這兩個資源設定的介面與上述提到的些許不同，但是最後都會以檔案或其他的形式出現於 **Container** 供應用程式使用。
 只要能夠讓 **Container** 有辦法存取到外部的存取空間，這過程都會牽扯到 **Container** 的創造，甚至是 **Linux Mount Namespace** 的涉入與處理。

@@ -16,9 +16,9 @@ description: 在前篇文章有跟大家分享過實際部屬上遇到的 DNS �
 此系列文會從使用者的用法到一些問題的發掘，最後透過閱讀程式碼的方式去分析這些問題
 
 相關的文章連結如下
-- [[Kubernetes] DNS setting in your Pod](https://www.hwchiu.com/kubernetes-dns.html)
-- [[Kubernetes] DNS Setting with Dockerd](https://www.hwchiu.com/kubernetes-dns-ii.html)
-- [[Kubernetes] DNS Setting with Dockerd(原始碼分析上)](https://www.hwchiu.com/kubernetes-dns-iii.html)
+- [[Kubernetes] DNS setting in your Pod](https://www.hwchiu.com/docs/2018/kubernetes-dns)
+- [[Kubernetes] DNS Setting with Dockerd](https://www.hwchiu.com/docs/2018/kubernetes-dns-ii)
+- [[Kubernetes] DNS Setting with Dockerd(原始碼分析上)](https://www.hwchiu.com/docs/2018/kubernetes-dns-iii)
 
 # 正文
 

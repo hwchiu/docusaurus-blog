@@ -200,7 +200,7 @@ debug-pod-7f9c756577-wx4s6   1/1     Running   0          54s   10.244.2.9    ki
 1. Controller 會根據參數設定 Node 上的 NodeCIDR 等數值(本文不談)
 2. Kubelet 創建 Pod 時，最後會呼叫起 CNI 來幫忙處理
 
-**Container Network Interface(CNI)** 這邊不談太多，想要瞭解更多可以閱讀我之前關於 CNI 的[介紹文](https://www.hwchiu.com/cni.html)
+**Container Network Interface(CNI)** 這邊不談太多，想要瞭解更多可以閱讀我之前關於 CNI 的[介紹文](https://www.hwchiu.com/docs/2019/iThome_Challenge/cni)
 
 接下來我們用圖表看一下 CNI 的運作流程(大概流程，實際上底層的呼叫有一點點不一樣)
 

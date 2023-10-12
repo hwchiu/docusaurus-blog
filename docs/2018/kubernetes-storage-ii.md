@@ -10,8 +10,7 @@ description: Network FileSystem(NFS) 是一個普遍常用且方便的檔案系�
 
 # Preface
 
-在前一篇文章中 [Kubernetes X Storage (I)
-](https://www.hwchiu.com/kubernetes-storage-i.html) 已經跟大家介紹過基本的儲存概念，包含了 `PV/PVC/StorageClass` 等基本元件。
+在前一篇文章中 [Kubernetes X Storage (I)](https://www.hwchiu.com/docs/2018/kubernetes-storage-i) 已經跟大家介紹過基本的儲存概念，包含了 `PV/PVC/StorageClass` 等基本元件。
 
 而本篇文章則會跟大家分享一下在 `Kubernetes` 內可以如何使用`NFS (Network File System)`，主要會涵蓋兩大主題，其中一個是基於 `Kubernetes` 原生支援的 `NFS` 使用方式，透過 `PV/PVC` 或是 `Pod` 內直接透過 `VolumeMounts` 來描述 `NFS` 的資訊來使用。
 另外一種則是會透過 `kubernetes-incubator` 內相關的專案，譬如 `NFS-Provisioner`  或是 `NFS-Client-Provisaioner` 等來介紹關於 `StorageClass` 以及 `NFS` 互相整合的使用方式。
