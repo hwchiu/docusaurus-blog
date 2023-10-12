@@ -21,6 +21,7 @@ const config = {
   organizationName: 'hwchiu', // Usually your GitHub org/user name.
   projectName: 'hwchiu.github.io', // Usually your repo name.
   deploymentBranch: 'main',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
