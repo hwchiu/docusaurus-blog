@@ -12,7 +12,7 @@ description: 本文用來記錄 Costco 冷凍鮭魚排的營養組成，對於�
 
 常買的有
 1. 雞胸肉
-2. [雞腿排](https://hwchiu.com/costco-chicken.html)
+2. 雞腿排
 3. 牛奶
 4. 蛋白丁
 5. 蝦仁

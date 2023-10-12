@@ -13,11 +13,11 @@ description: 本文用來記錄 Costco 去骨雞腿排的營養組成，對於�
 
 常買的有
 1. 雞胸肉
-2. [雞腿排](https://hwchiu.com/costco-chicken.html)
+2. 雞腿排
 3. 牛奶
 4. 蛋白丁
 5. 蝦仁
-6. [鮭魚](https://hwchiu.com/costco-salmon.html)
+6. 鮭魚
 
 
 這篇文章主要用來記錄雞腿排的資訊，包含來源，熱量等資訊
