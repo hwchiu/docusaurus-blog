@@ -16,9 +16,9 @@ description: 於 kubernetes 叢集中，我們會部屬大量的容器應用程�
 2. `Kubernetes Service` 是怎麼實現的?， 讓我們用 Iptables 來徹徹底底的理解他
 
 相關文章:
-[[Kubernetes] How To Implement Kubernetes Service - ClusterIP](https://www.hwchiu.com/kubernetes-service-ii.html)
-[[Kubernetes] How To Implement Kubernetes Service - NodePort](https://www.hwchiu.com/kubernetes-service-iii.html)
-[[Kubernetes] How To Implement Kubernetes Service - SessionAffinity](https://www.hwchiu.com/kubernetes-service-iiii.html)
+[[Kubernetes] How To Implement Kubernetes Service - ClusterIP](https://www.hwchiu.com/docs/2018/kubernetes-service-ii)
+[[Kubernetes] How To Implement Kubernetes Service - NodePort](https://www.hwchiu.com/docs/2018/kubernetes-service-iii)
+[[Kubernetes] How To Implement Kubernetes Service - SessionAffinity](https://www.hwchiu.com/docs/2018/kubernetes-service-iiii)
 
 
 本篇文章偏向介紹，要跟大家討論為什麼在 `kubernetes` 叢集內需要有 `service` 的服務，這個服務能夠解決什麼問題

@@ -17,10 +17,9 @@ description: 在前述中我們已經學過了什麼是 kubernetes service 以�
 2. `Kubernetes Service` 是怎麼實現的?， 讓我們用 iptables 來徹徹底底的理解他
 
 相關文章:
-[[Kubernetes] What is Service](https://www.hwchiu.com/kubernetes-service-i.html)
-[[Kubernetes] How To Implement Kubernetes Service - ClusterIP](https://www.hwchiu.com/kubernetes-service-ii.html)
-[[Kubernetes] How To Implement Kubernetes Service - NodePort](https://www.hwchiu.com/kubernetes-service-iii.html)
-
+[[Kubernetes] What is Service](https://www.hwchiu.com/docs/2018/kubernetes-service-i)
+[[Kubernetes] How To Implement Kubernetes Service - ClusterIP](https://www.hwchiu.com/docs/2018/kubernetes-service-ii)
+[[Kubernetes] How To Implement Kubernetes Service - NodePort](https://www.hwchiu.com/docs/2018/kubernetes-service-iii)
 
 本文銜接前續文章，繼續透過對 `iptables` 的分析來研究 `kubernetes service` 中 `SessionAffinity` 的實作原理。
 

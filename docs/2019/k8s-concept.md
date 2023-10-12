@@ -157,7 +157,7 @@ kubernetes 在 Service/Ingress 中間自行實現了一個模組，大抵上稱�
 若對於 `CNI` 標準有興趣的可以參閱下列文章
 - [Containernetworking CNI github](https://github.com/containernetworking/cni
 )
-- [CNI 系列文章](https://www.hwchiu.com/docs/tags/cni/)
+- [CNI 系列文章](https://www.hwchiu.com/docs/tags/cni)
 
 對於 `Kubernetes` 抽象層可以參閱下列文章了解其原理
 - [What is Service](https://www.hwchiu.com/docs/2018/kubernetes-service-i)

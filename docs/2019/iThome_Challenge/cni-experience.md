@@ -111,10 +111,10 @@ description: 本文作為網路分享的最後一篇，針對各式各樣的 CNI
 
 我先前曾經寫過四篇文章
 
-[[Kubernetes] What Is Service?](https://www.hwchiu.com/kubernetes-service-i.html)
-[[Kubernetes] How to Implement Kubernetes Service - ClusterIP](https://www.hwchiu.com/kubernetes-service-ii.html)
-[[Kubernetes] How to Implement Kubernetes Service - NodePort](https://www.hwchiu.com/kubernetes-service-iii.html)
-[[Kubernetes] How to Implement Kubernetes Service - SessionAffinity](https://www.hwchiu.com/kubernetes-service-iiii.html)
+[[Kubernetes] What is Service](https://www.hwchiu.com/docs/2018/kubernetes-service-i)
+[[Kubernetes] How To Implement Kubernetes Service - ClusterIP](https://www.hwchiu.com/docs/2018/kubernetes-service-ii)
+[[Kubernetes] How To Implement Kubernetes Service - NodePort](https://www.hwchiu.com/docs/2018/kubernetes-service-iii)
+[[Kubernetes] How To Implement Kubernetes Service - SessionAffinity](https://www.hwchiu.com/docs/2018/kubernetes-service-iiii)
 
 來探討 **kubernetes service** 本身的實作，預設情況下是如何透過 **Linux Kernel Netfilter** 來完成這些功能，就換切換成 **IPVS** 這種選項，也依然是透過 **Linux kernel** 來滿足的。
 
