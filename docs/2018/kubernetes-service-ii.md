@@ -38,7 +38,7 @@ description: 在前述中我們已經學過了什麼是 kubernetes service, 一�
 
 # Introduction
 
-在前篇文章 [[Kubernetes] What is Service](https://www.hwchiu.com/kubernetes-service-i.html) 我們已經學習到關於 `Kubernetes Service` 的基本概念與用法
+在前篇文章 [[Kubernetes] What is Service](https://www.hwchiu.com/docs/2018/kubernetes-service-i) 我們已經學習到關於 `Kubernetes Service` 的基本概念與用法
 而本篇文章則是想要探討在預設安裝情況下， `kubernetes` 是如何實現 `service` 的功能。
 
 <!--more-->
