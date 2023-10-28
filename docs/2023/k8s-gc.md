@@ -259,8 +259,7 @@ $ sudo crictl inspecti docker.io/library/jenkins:2.60.2
 
 經過反覆實驗後觀察到若採用 `ctr image label` 加上的 label 似乎不會被認可為 pinned，只有透過 `ctr image pull` 的才有辦法被正式被辨識。
 
-另外 kubelet 沒有辦法辨識的問題實際上是一個實作的 bug，該 bug 已經於[PR Pass Pinned field to kubecontainer.Image
-](https://github.com/kubernetes/kubernetes/pull/119986) 給修復，該修復預計於 v1.29 一起釋出。
+另外 kubelet 沒有辦法辨識的問題實際上是一個實作的 bug，該 bug 已經於[PR Pass Pinned field to kubecontainer.Image](https://github.com/kubernetes/kubernetes/pull/119986) 給修復，該修復預計於 v1.29 一起釋出。
 
 因此嘗試下載 v1.29.0-alpha.1 版本的 [kubelet](https://dl.k8s.io/v1.29.0-alpha.1/kubernetes-node-linux-amd64.tar.gz)並且進行替換來驗證，最後整個功能運作如預期，能夠順利的跳過 pinned image。
 
