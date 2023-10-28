@@ -32,6 +32,11 @@ HPA 是內建於 Kubernetes 內的 Controller，其會與 API Server 去詢問�
 ### 調整對象
 調整 Pod 的數量，其中有很多參數包含 Behavior 等可以調整 Pod 數量每次更動的百分比或是絕對數值
 
+:::info
+
+HPA 除了預設的資源用法外，也可以導入 Metric 或是 KEDA 等專案來提供不同面向的決策
+:::
+
 
 # VPA (Vertical Pod Autoscaler)
 
