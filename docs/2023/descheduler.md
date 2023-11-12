@@ -201,8 +201,29 @@ deschedulerPolicy:
 ```
 
 接下來部署一個不穩定的 Pod，觀察當 Pod 重啟次數達到 5 次後會發生什麼情況
-```
 
+```yaml=
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: www-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: www
+  template:
+    metadata:
+      labels:
+        app: www
+    spec:
+      containers:
+        - name: www-server
+          image: hwchiu/python-example
+          command: ['sh', '-c', 'date && no']
+          ports:
+            - containerPort: 5000
+              protocol: "TCP"
 
 ```
 
