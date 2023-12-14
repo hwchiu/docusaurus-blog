@@ -121,7 +121,7 @@ Hello stderr
 所以最終就可以將 STDOUT 與 STDERR 一起寫入到檔案中
 
 那如果改成下列流程 "2 >&1 > file"，則邏輯可以拆分成
-1. 2>&1 => 將 STDERR 的輸出寫到 STDOUT 的輸入
+1. 2>&1 => 將 STDERR 的輸出寫到 STDOUT 的輸出點
 2. > file => 將 STDOUT 的輸出寫道 檔案
 
 整個流程如下，因此最後只有 STDOUT 的內容被寫到檔案中
