@@ -38,7 +38,7 @@ Hello stderr
 ```
 
 因此以預設的情況下，關係圖如下
-![image](https://hackmd.io/_uploads/rJ_vdHwLa.png)
+![image](./assets/rJ_vdHwLa.png)
 
 
 
@@ -62,7 +62,7 @@ Hello stdout
 上述範例將 "STDOUT" 給導向 "haha" 這個檔案，所以可以看到執行完畢後， "Hello stderr" 的部分依然透過 "stderr" 輸出到 /dev/tty ，而 "Hello stdout" 則被寫到檔案內。
 整個概念圖如下
 
-![image](https://hackmd.io/_uploads/BJCPOBD8p.png)
+![image](./assets/BJCPOBD8p.png)
 
 
 此時若嘗試使用 "2>" 的格式的話，結果剛好反過來
@@ -74,7 +74,7 @@ bash-3.2$ cat haha2
 Hello stderr
 ```
 
-![image](https://hackmd.io/_uploads/r1V_dBDIT.png)
+![image](./assets/r1V_dBDIT.png)
 
 
 檔案的輸出本身是可以一起使用的，譬如下列範例
@@ -87,7 +87,7 @@ bash-3.2$ cat haha2
 Hello stderr
 ```
 
-![image](https://hackmd.io/_uploads/ryFudBDLp.png)
+![image](./assets/ryFudBDLp.png)
 
 除了各別輸出到檔案之外，也可以參照別的 file descriptor 的目標
 舉例來說，可以透過 "2>&1" 讓 STDERR 的輸出送往 stdout 的輸出
@@ -95,7 +95,7 @@ Hello stderr
 代表是參照 "STDOUT"，而非檔案
 
 整個概念如下，但是由於當前輸出都是 `/dev/tty`，因此使用上可能沒有特別感覺
-![image](https://hackmd.io/_uploads/SkFPYBDUT.png)
+![image](./assets/SkFPYBDUT.png)
 
 ```bash=
 bash-3.2$ bash test.sh 1>&2
@@ -117,7 +117,7 @@ Hello stderr
 2. 2>&1 => 將 STDERR 的輸出寫到 STDOUT 的輸入
 
 流程如下
-![image](https://hackmd.io/_uploads/BkrYbvwU6.png)
+![image](./assets/BkrYbvwU6.png)
 所以最終就可以將 STDOUT 與 STDERR 一起寫入到檔案中
 
 那如果改成下列流程 "2 >&1 > file"，則邏輯可以拆分成
@@ -125,7 +125,7 @@ Hello stderr
 2. > file => 將 STDOUT 的輸出寫道 檔案
 
 整個流程如下，因此最後只有 STDOUT 的內容被寫到檔案中
-![image](https://hackmd.io/_uploads/ByjYbvDU6.png)
+![image](./assets/ByjYbvDU6.png)
 
 另外一個比較簡單的寫法 "&> file" 則可以達到一樣的效果，將 STDOUT 與 STDERR 一起寫入到檔案中
 
@@ -140,7 +140,7 @@ Hello stderr
 
 使用指令時非常容易搭配 |(pipe) 的概念將指令給串連起來，而 | 的基本概念就是將 "當前指令的 STDOUT" 給導向下一個指令的 "STDIN"，如下列流程
 
-![image](https://hackmd.io/_uploads/Hy0qsKOUT.png)
+![image](./assets/Hy0qsKOUT.png)
 
 
 以下範例就是單純將 STDOUT 給導向 grep 指令，然而 STDERR 還是輸出到 /dev/tty
@@ -159,7 +159,7 @@ bash-3.2$ bash test.sh 2>&1 | grep err
 Hello stderr
 ```
 
-![image](https://hackmd.io/_uploads/H1D8r9uLp.png)
+![image](./assets/H1D8r9uLp.png)
 
 # Summary
 
