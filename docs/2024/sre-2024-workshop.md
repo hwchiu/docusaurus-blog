@@ -5,7 +5,7 @@ tags:
   - Kubernetes
   - DevOps
 description: 紀錄 2024 Taiwan SRE Summit Workshop 的心路歷程
-image: ./assets/SyL6TF1hT.png
+image: ./assets/rJk8IQnHR.png
 ---
 
 # Kubernetes Workshop 經驗分享
@@ -27,7 +27,7 @@ image: ./assets/SyL6TF1hT.png
 
 
 叢集架構如下，每個節點都會有 Private 與 Public IP，與會者可以透過 Public IP 存取到 Prometheus 與 Grafana，同時節點之間也可以透過 private IP 互相存取
-![image](https://hackmd.io/_uploads/rJk8IQnHR.png)
+![image](./assets/rJk8IQnHR.png)
 
 註: AKS 的環境則是由 AKS 處理 Control Plane，因此只有 openstack 自建環境的部分才有 master node 的需求
 
@@ -68,7 +68,7 @@ image: ./assets/SyL6TF1hT.png
         
 ### Question:
 透過 kubectl get nodes 後觀察到有節點顯示為 NotReady，範例如下
-![image](https://hackmd.io/_uploads/B1vLCQhB0.png)
+![image](./assets/B1vLCQhB0.png)
 
 找出造成 NotReady 的原因並且嘗試修復
     
@@ -80,7 +80,7 @@ image: ./assets/SyL6TF1hT.png
         
 ### Question:  
 部署應用程式，應用程式自己 Crash，但是其 Restart 內顯示的時間有問題，如下
-![image](https://hackmd.io/_uploads/BkNJ0XnSC.png)
+![image](./assets/BkNJ0XnSC.png)
 
 嘗試解釋為什麼會是 Invalid Ago，並且修復
     
@@ -138,7 +138,7 @@ HPA 與 Prometheus 是兩件獨立的事情， HPA 本身仰賴的是 Metrics AP
    
 ### Question:
 部署一個 ReadWriteOnce 的 PVC 物件，然後有兩個 Deployment 物件都指名使用該 PVC，最終部署結果如下
-![image](https://hackmd.io/_uploads/ryYJOQnSA.png)
+![image](./assets/ryYJOQnSA.png)
 
 該 PVC 標示為 ReadWriteOnce，那為什麼可以有這麼多 Pod 同時使用？
     
@@ -150,7 +150,7 @@ HPA 與 Prometheus 是兩件獨立的事情， HPA 本身仰賴的是 Metrics AP
 https://github.com/kubernetes/enhancements/blob/master/keps/sig-storage/2485-read-write-once-pod-pv-access-mode/README.md    
    
 當 PVC 採取此種模式時，所有的 Pod 都會進入到 Pending 狀態，結果如下圖
-![image](https://hackmd.io/_uploads/r1kpOm2S0.png)
+![image](./assets/r1kpOm2S0.png)
 
     
 ## Prometheus scraps no data
@@ -168,7 +168,7 @@ https://github.com/kubernetes/enhancements/blob/master/keps/sig-storage/2485-rea
         
 ### Question:  
 部署應用程式後透過 Grafana 觀察 HTTP Latency 的現象，會觀察到 P90 後的 Latency 有特別高的情況，範例如下
-![image](https://hackmd.io/_uploads/BkYdyN3BC.png)
+![image](./assets/BkYdyN3BC.png)
   
     
 ### Root Cause:
@@ -176,7 +176,7 @@ Server 的 CPU Limit 太低，導致 CPU Throttling 的問題發生，因此當�
     
 修正後的結果應該要類似下圖，最終都會靠近彼此
     
-![image](https://hackmd.io/_uploads/ByS0yV3B0.png)
+![image](./assets/ByS0yV3B0.png)
     
     
 # 結論
