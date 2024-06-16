@@ -43,7 +43,7 @@ image: ./assets/rJk8IQnHR.png
 以下是這次十個題目的主軸，將會針對每個問題詳細介紹
 1. Application Crash
 2. Node Not Ready
-3. Pod's information shows <Invalid Ago>
+3. Pod's information shows Invalid Ago
 4. Not Able to Access Server Via Service
 5. Statefulset crash
 6. No Configmap auto update
