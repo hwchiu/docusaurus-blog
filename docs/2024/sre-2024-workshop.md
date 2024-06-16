@@ -76,7 +76,7 @@ image: ./assets/rJk8IQnHR.png
 節點上的 Kubelet 沒有辦法順利運行回報狀況，原因是節點上的 swap 意外被打開，導致 kubelet 不能順利運行。關閉 swap 並且重啟 kubelet 即可讓節點恢復正常。    
     
    
-## Pod's information shows <Invalid Ago>
+## Pod's information shows Invalid Ago
         
 ### Question:  
 部署應用程式，應用程式自己 Crash，但是其 Restart 內顯示的時間有問題，如下
