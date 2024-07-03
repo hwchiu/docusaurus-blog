@@ -47,7 +47,7 @@ image: ./assets/rJk8IQnHR.png
 4. Not Able to Access Server Via Service
 5. Statefulset crash
 6. No Configmap auto update
-7. HAP doesn't work
+7. HPA doesn't work
 8. Two Pods share the same ReadWriteOnce PVC
 9. Prometheus scraps no data
 10. P99 latency spikes
@@ -122,7 +122,7 @@ kubectl delete sts --cascade=orphan q5
 ConfigMap 的更新會有兩段流程，從 API Server 到 Node Kubelet 再到 Container，但是目前實務上是有限制的，任何有使用 SubPath 的 ConfigMap 都沒有辦法被自動更新，自然也無法透過 iNotify 去監控來處理。唯一的解法只有砍掉 Pod，讓他重新增長才可以 
     
    
-## HAP doesn't work
+## HPA doesn't work
     
 ### Question:
 部署應用程式並且也設定了 HPA 的規則，同時透過 Prometheus 觀察 CPU 用量也是有增長的，從資料來看 CPU 使用率是有超過 HPA 設定的門檻，但是 Deployment 的數量就是沒有增加    
