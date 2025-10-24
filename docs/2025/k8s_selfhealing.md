@@ -6,7 +6,6 @@ tags:
   - Kubernetes
   - Testing
 description: Kubernetes self-healing 的邏輯與原理探討
-image: ./assets/S19oQGj2A.png
 ---
 
 # Preface
