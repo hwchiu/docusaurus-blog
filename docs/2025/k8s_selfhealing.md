@@ -115,7 +115,7 @@ const {
 		util.SetNodeOwnerFunc(klet.heartbeatClient, string(klet.nodeName)))
 ```
 
-以 (官方文件)[https://kubernetes.io/docs/reference/config-api/kubelet-config.v1beta1/] 中，可以觀察到此設定
+以 [官方文件](https://kubernetes.io/docs/reference/config-api/kubelet-config.v1beta1/) 中，可以觀察到此設定
 
 ```
 nodeLeaseDurationSeconds (int32)
